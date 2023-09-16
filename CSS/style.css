@@ -1,0 +1,563 @@
+@font-face {
+    font-family: Miracle;
+    src: url('../fonts/Miracle.otf');
+}
+@font-face {
+    font-family: HelveticaNeueLTSTD;
+    src: url('../fonts/HelveticaNeueLTStd.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* HEADER MENU AND OTHER HEADER */
+.header {
+    background-color: #313F38;
+}
+.content-wrap {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.menu-list {
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+.main-menu  {
+    position: relative;
+}
+.menu-list a {
+    text-decoration: none;
+    color: black;
+}
+.number {
+    display: none;
+}
+.logo {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.main-menu i {
+    color: #FFFCF6;
+    font-size: 20px;
+}
+.menu-list a {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.header-bottom-top {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 21vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+}
+.yellow {
+    color: #FCD043;
+}
+.label-since {
+    border: 1px solid #FFFCF6;
+    width: 230px;
+    height: 65px;
+    border-radius: 45px;
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 65px;
+    text-transform: capitalize;
+    display: none;
+    margin-top: 45px;
+}
+.star {
+    width: 30px;
+    margin-right: 10px;
+}
+.button-down {
+    margin-top: 40px;
+    display: none;
+}
+
+.textyellow {
+    color: #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.2vw;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.description-header {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 23px;
+    margin: 0 32px;
+}
+.line {
+    margin: 25px 35px;
+    opacity: 0.12;
+}
+.header-image {
+    background-image: url('../img/header.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 430px;
+    margin: 40px 0;
+}
+.header-table {
+    width: 1050px;
+    border-collapse: collapse;
+    background-color: #FFFCF6;
+    text-align: center;
+    margin-left: auto;
+    background: rgba(49, 63, 56, 0.48);
+    backdrop-filter: blur(20px);
+    height: 110px;
+    display: none;
+}
+.header-table a {
+    color: #1B3B36;
+    text-decoration: none;
+}
+td:not(:last-child) {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-right: 1px solid #FFFCF6;
+    opacity: 0.9;
+}
+td:last-child {
+    background-color: #FCD043;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.icontable {
+    padding-left: 20px;
+}
+.bookroom-icon img{
+    width: 110px;
+    height: 110px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 305px;
+}
+.number-a {
+    color: #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    display: none;
+}
+.address {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: none;
+}
+.caption {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.hall {
+    font-style: italic;
+}
+
+
+/* SECTION ABOUT US */
+.about-us {
+    padding-top: 40px;
+    background-color: #313F38;
+    padding-bottom: 25px;
+}
+.aboutus-bg {
+    background-image: url('../img/lines.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+.aboutus-logo {
+    color: #FCD043;
+    text-align: right;
+    font-family: Miracle;
+    font-size: 18.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.7vw;
+    text-transform: uppercase; 
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: inline-block;
+}
+
+.aboutus-photo1 {
+    background-image: url('../img/about-us1.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-bottom: 55px;
+}
+.hq {
+    color: #FFFCF6;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+} 
+.aboutus-description {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    width: 90%;
+    opacity: 0.8;
+}
+.aboutus-label1 {
+    float: right;
+}
+.aboutus-button {
+    display: none;
+}
+
+/* SECTION ROOMS & APARTMENTS */
+.rooms-apartments {
+    background-color: #FFFCF6;
+    padding-top: 70px;
+}
+.roomsamount {
+    display: block;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: right;
+    padding-bottom: 30px;
+} 
+.rooms-label {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 15.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.7vw;
+    text-transform: uppercase;
+}
+.rooms-description {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.8vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 50px 0;
+    width: 50%;
+}
+.rooms-image1 {
+    background-image: url('../img/rooms-img1.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 425px;
+}
+.number-of-page {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    padding: 45px 0 30px 0;
+}
+.four {
+    color: rgba(27, 59, 54, 0.32);
+}
+.superiortwin {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 9.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.4vw;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+.container-rooms {
+    display: flex;
+    justify-content: space-between;
+}
+.button-right img {
+    width: 21.8vw;
+    height: 21.8vw;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+.superior-description {
+    
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.2vw;
+    opacity: 0.8;
+}
+.line-long {
+    opacity: 0.24;
+    margin: 50px 0;
+}
+
+@media (min-width: 1025px) {
+    .roomsamount {
+        display: none;
+    }
+    .rooms-label {
+        font-size: 125px;
+        line-height: 105px;
+    }
+    .container-rooms1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .rooms-description{
+        font-size: 18px;
+        line-height: normal;
+        padding: 0;
+        width: 335px;
+    }
+}
+
+
+
+
+@media (min-width: 1025px) {
+    .aboutus-photo1 {
+        width: 480px;
+        height: 680px;
+        margin-top: 120px;
+        order: -1;
+    }
+    .aboutus-logo {
+        font-size: 125px;
+        line-height: 105px;
+        text-align: right;
+        display: inline-block;
+        margin-top: 150px;
+        position: relative;
+        right: 15%;
+    }
+    .us {
+        color: #FFFCF6;
+    }
+    .aboutus-photo2 {
+        background-image: url('../img/abouts-us2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 360px;
+        width: 240px;
+        margin-top: 120px;
+    }
+    .aboutus-label1 {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 15.5%; bottom: -645px;
+    }
+    .hq {
+        line-height: normal;
+        font-size: 36px;
+        letter-spacing: 1.08px;  
+    }
+    .aboutus-description {
+        font-size: 18px;
+        line-height: 28px;
+        opacity: 0.64;
+        line-height: 28px;
+    }
+    .fer {
+        width: 370px;
+        height: 0;
+        position: relative;
+        left: 40%; bottom: 370px;
+    }
+    .about-wrap1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutus-button  {
+        width: 150px;
+        height: 0;
+        display: block;
+        position: relative;
+        left: 85%; bottom: 210px;
+    }
+    .about-us {
+        padding-bottom: 100px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1025px){
+    .main-menu i {
+        display: none;
+    }
+    .menu-list {
+        position: static;
+        display: flex;
+    }
+    .menu-list li:not(:last-child) {
+        margin-right: 70px;
+    }
+
+    .header-top {
+        height: 70px;
+    }
+    .number {
+        display: block;
+        color: #FFFCF6;
+        font-family: HelveticaNeueLTStd;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    .content-wrap {
+        padding: 0 20px;
+    }
+    .name {
+        font-size: 170px;
+        text-align: left;
+        margin: 0;
+    }
+    .label-since {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button-down {
+        display: block;
+    }
+    .header-bottom-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .textyellow {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .description-header {
+        font-size: 18px;
+        width: 350px;
+        text-align: left;
+        margin-right: 110px;
+    }
+    .line {
+        display: none;
+    }
+    .header-image {
+        height: 580px;
+    }
+    .header-table {
+        display: table;
+    }
+    .bookroom-icon {
+        display: none;
+    }
+    .caption {
+        font-size: 26px;
+        float: right;
+        padding-top: 20px; 
+    }
+    .number-a {
+        padding-top: 20px;
+        display: block;
+    }
+    .address {
+        display: block;
+        padding-bottom: 75px;
+    }
+}
+
+@media (min-width: 481px) {
+}
+@media (min-width: 769px) {
+}
+@media (min-width: 1201px) {
+
+}
