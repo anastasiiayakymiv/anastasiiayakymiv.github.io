@@ -361,7 +361,6 @@ td:last-child {
     margin-right: 60px;
 }
 .superior-description {
-    
     color: #1B3B36;
     font-family: HelveticaNeueLTStd;
     font-size: 4.1vw;
@@ -369,10 +368,127 @@ td:last-child {
     font-weight: 400;
     line-height: 7.2vw;
     opacity: 0.8;
+    padding-bottom: 50px;
 }
 .line-long {
     opacity: 0.24;
-    margin: 50px 0;
+    
+}
+.bookroom-icon-show img {
+    width: 110px;
+    height: 110px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 305px;
+}
+
+
+/* OUR FACILITIES */
+.our-facilities {
+    background-color: #FFFCF6;
+    padding-top: 50px;
+}
+.caption4 {
+    color: #1B3B36;
+    text-align: right;
+    font-family: HelveticaNeueLTStd;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.our-facilities-logo span{
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 16vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw;
+    text-transform: uppercase;
+    display: block;
+}
+.our-facilities-logo {
+    margin-left: 16vw;
+    margin-bottom: 45px;
+}
+.star-icon {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.of-image1 {
+    background-image: url('../img/ourfacilities-image1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 135px;
+    width: 200px;
+    margin: 0 auto;
+}
+.of-description {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.1vw;
+    margin-top: 45px;
+    margin-left: 135px;
+    opacity: 0.8;
+}
+
+@media (min-width: 1025px) {
+    .our-facilities {
+        background-color: #FFFCF6;
+        padding-top: 100px;
+    }
+    .caption4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        order: -1;
+    }
+    .our-facilities-logo span {
+        font-size: 125px;
+        line-height: 105px;
+        order: 1;
+    }
+    .of-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .of-image2 {
+        background-image: url('../img/ourfacilities-image2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 335px;
+        height: 215px;
+        order: 3;
+        margin-top: 90px;
+    }
+    .star-icon {
+        height: 70px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .of-image1 {
+        height: 255px;
+        width: 450px;
+        margin: 0;
+    }
+    .of-description {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 110px;
+        margin-left: 62px; 
+        width: 350px;  
+    }
+    .of-container2 {
+        display: flex;
+        margin-top: 100px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -386,13 +502,78 @@ td:last-child {
     .container-rooms1 {
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .rooms-description{
         font-size: 18px;
         line-height: normal;
         padding: 0;
         width: 335px;
+    }
+    .container-rooms2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+    }
+    .rooms-image1 {
+        width: 570px;
+        height: 750px;
+        order: 1;
+    }
+    .rooms-image2 {
+        background-image: url('../img/rooms-img2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 255px;
+        width: 215px;
+        order: -1;
+    }
+    .black {
+        color: #1B3B36;
+        border: 1px solid #313F38;
+        margin-top: 0;
+    }
+    .bookroom-icon-show img {
+        width: 165px;
+        height: 165px;
+        top: 570px;
+    }
+    .superiortwin {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-align: center;
+        margin-left: 295px;
+    }
+    .superior-description{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 335px;
+    }
+    .button-right img{
+        width: 160px;
+        height: 160px;
+        margin-top: 100px;
+    }
+    .number-of-page{
+        font-size: 22px;
+        order: 3;
+        text-align: center;
+        margin-left: 135px;
+    }
+    .container-rooms3 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: relative;
+        bottom: 500px;
+        height: 0;
+        padding-bottom: 120px;
     }
 }
 
