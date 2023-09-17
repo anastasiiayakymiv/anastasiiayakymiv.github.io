@@ -438,6 +438,264 @@ td:last-child {
     opacity: 0.8;
 }
 
+
+/* ICE RESTAURANT */
+.ice-restaurant {
+    background-color: #FFFCF6;
+    padding-top: 70px;
+}
+.ice-restaurant-image {
+    background-image: url('../img/ice-restaurant.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.first {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+.icerestaurant-logo {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: capitalize;
+    width: 52.5vw;
+}
+.resrtaurant-container1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.resrtaurant-container2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-down2 img{
+    width: 70px;
+    margin-top: 10px;
+}
+.restaurant-description {
+    width: 52.5vw;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.1vw;
+    opacity: 0.8;
+}
+
+.conferencehall {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.winebar {
+    padding-top: 50px;
+}
+.conferencehall-image {
+    background-image: url('../img/conference-hall.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.second {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: uppercase;
+    text-align: right;
+}
+.conferencehall-logo {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.2vw;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.winebar-logo {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.2vw;
+    text-transform: capitalize;
+    padding: 40px 0 70px 0;
+}
+.winebar-image {
+    background-image: url('../img/wine-bar.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    
+}
+.arrow {
+    display: none;
+}
+
+/* BEST APARTMENTS */
+
+.bg-apartaments {
+    background-image: url('../img/conference-hall.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.apartaments-logo {
+    color: #FCD043;
+    font-family: Miracle;
+    font-size: 16vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding: 70px 10px 50px 10px;
+}
+.yellowline {
+    padding: 100px 0 150px 0;
+}
+.yellowline img {
+    width: 100%;
+}
+.apartments-description {
+    color:  #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: auto;
+    width: 205px;
+}
+
+@media (min-width: 1025px) {
+    .bg-apartaments {
+        background-image: url('../img/best-apartaments.jfif');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 810px;
+    }
+}
+@media (min-width: 1025px) {
+    .ice-restaurant {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+    .ice-restaurant-image {
+        height: 640px;
+        width: 450px;
+        margin-left: auto;
+    }
+    .first {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        bottom: 650px; left: 350px;
+    }
+    .icerestaurant-logo {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        position: relative;
+        bottom: 370px;
+        margin-right: 320px;
+    }
+    .resrtaurant-container2 {
+        position: relative;
+        bottom: 350px;
+        justify-content: start;
+        height: 0;
+    }
+    .button-down2 img {
+        width: 150px;
+        margin-top: 0px;
+        margin-right: 200px;
+    }
+    .restaurant-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 335px; 
+    }
+    .conferencehall {
+        display: flex;
+        justify-content: space-between;
+    }
+    .winebar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .conferencehall-image {
+        height: 215px;
+        width: 215px;
+        order: -1;
+        margin: 0 0 50px 0;
+    }
+    .second {
+        font-size: 50px;
+        line-height: 50px;
+        padding: 70px 0 0 0;
+    }
+    
+    .conferencehall-logo {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        padding: 70px 0 0 0;
+    }
+    .winebar-logo {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        padding: 70px 0 0 0;
+    }
+    .winebar-image {
+        height: 215px;
+        width: 215px;
+        order: -1;
+        margin: 0;
+        margin: 0 0 50px 0;
+    }
+    
+    .arrow {
+        display: block;
+        padding: 80px 0 0 0;
+    }
+}
+
+
+
+
 @media (min-width: 1025px) {
     .our-facilities {
         background-color: #FFFCF6;
