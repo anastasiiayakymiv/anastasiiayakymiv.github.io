@@ -582,28 +582,168 @@ td:last-child {
 .yellowline {
     padding: 100px 0 150px 0;
 }
-.yellowline img {
+.yellowline  {
     width: 100%;
 }
+.bigyellowline {
+    display: none;
+} 
 .apartments-description {
     color:  #FCD043;
     font-family: HelveticaNeueLTStd;
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
     margin-left: auto;
     width: 205px;
 }
-
+ /* OUR GALLERY */
+ .gallery {
+    background-color: #313F38;
+    padding-top: 70px;
+ }
+ .label-gallery {
+    text-align: center;
+ }
+ .gallery-logo {
+    color: #FCD043;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 5px;
+ }
+ .gallery-description {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: HelveticaNeueLTStd;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    opacity: 0.8;
+    padding: 50px 10px;
+ }
+ .photos {
+    position: relative;
+    height: 450px;
+ }
+.photo1 {
+    background-image: url('../img/gallery5.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.photo2 {
+    background-image: url('../img/about-us1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px; height: 205px;
+    position: absolute;
+    margin-top: 30px;
+    z-index: 2;
+}   
+.photo3 {
+    background-image: url('../img/gallery4.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    margin-right: -10px;
+    margin-top: 75px;
+    opacity: .4;
+}
+.photo4 {
+    background-image: url('../img/best-apartaments.jfif');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo5 {
+    background-image: url('../img/gallery6.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 140px;
+    position: absolute;
+    margin-top: 280px;
+    opacity: .4;
+    margin-left: -10px;
+}
+.marks {
+    display: none;
+}
+.caption-gallery {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.6vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    padding-bottom: 20px;
+}
+.caption-gallery img {
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
 @media (min-width: 1025px) {
     .bg-apartaments {
         background-image: url('../img/best-apartaments.jfif');
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 810px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 850px;
     }
+    .apartaments-logo {
+        font-size: 125px;
+        width: 806px;
+        line-height: 105px;
+        padding-top: 70px;
+        padding: 100px 20px 50px 20px;
+    }
+    .yellowline {
+        display: none;
+    }
+    .bigyellowline {
+        display: block;
+        width: 100%;
+    }
+    .apartments-description {
+        font-size: 18px;
+        line-height: normal;
+        width: 330px;
+        position: relative;
+        margin-left: 0;
+        padding-left: 20px;
+        bottom: 380px;
+    }
+
 }
 @media (min-width: 1025px) {
     .ice-restaurant {
