@@ -611,10 +611,10 @@ td:last-child {
     color: #FCD043;
     text-align: center;
     font-family: Miracle;
-    font-size: 60px;
+    font-size: 18.7vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 18.7vw;
     text-transform: uppercase;
     padding-top: 5px;
  }
@@ -622,10 +622,10 @@ td:last-child {
     color: #FFFCF6;
     text-align: center;
     font-family: HelveticaNeueLTStd;
-    font-size: 13px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 7.1vw;
     opacity: 0.8;
     padding: 50px 10px;
  }
@@ -638,8 +638,8 @@ td:last-child {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     position: absolute;
     right: 0;
     z-index: 1;
@@ -702,17 +702,130 @@ td:last-child {
     font-family: HelveticaNeueLTStd;
     font-size: 4.6vw;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 200;
     line-height: normal;
     text-transform: capitalize;
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .caption-gallery img {
     width: 36px;
     height: 36px;
     margin-right: 15px;
 }
+
+@media (min-width: 1025px) {
+    .gallery {
+        padding-top: 170px;
+    }
+    .gallery-logo {
+        font-size: 125px;
+        font-weight: 400;
+        line-height: 60px;
+        padding-top: 50px;
+    }
+    .gallery-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 450px;
+        margin: 0 auto;
+        opacity: 0.8;
+        padding: 70px 0;
+    }
+    .photos {
+        position: relative;
+        height: 650px;
+    }
+    
+    .photo1 {
+        background-image: url('../img/gallery4.jfif');
+        background-position: center;
+        width: 235px;
+        height: 235px;
+        right: 0;
+        margin-top: -170px;
+        margin-right: -20px;
+    }
+    .photo2 {
+        background-image: url('../img/gallery2.jfif');
+        background-position: top;
+        width: 235px;
+        height: 230px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: -20px;
+    }
+    .photo3 {
+        background-image: url('../img/gallery5.jfif');
+        background-position: center;
+        width: 335px;
+        height: 215px;
+        position: absolute;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 590px;
+        opacity: 1;
+    }
+    .photo4 {
+        background-image: url('../img/gallery1.jfif');
+        background-position: right;
+        width: 690px;
+        height: 455px;
+        position: absolute;
+        margin-top: 20px;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .photo5 {
+        background-image: url('../img/gallery3.jfif');
+        background-position: center;
+        width: 215px;
+        height: 295px;
+        position: absolute;
+        margin-top: 340px;
+        opacity: 1;
+        margin-left: 0px;
+    }
+    .marks {
+        padding-top: 150px;
+        display: block;
+        color: rgba(255, 252, 246, 0.12);
+        font-family: Miracle;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120px;
+        margin: 0 -20px;
+        letter-spacing: 3px;
+        padding-bottom: 200px;
+            /* 120% */
+    }
+    .bankhotel {
+        color: var(--White, #FFFCF6);
+    }
+    .caption-gallery {
+        font-size: 22px;
+        width: 350px;
+        display: flex;
+        padding-bottom: 40px;
+        position: relative;
+        left: 400px;
+        margin-top: -150px;
+    }
+    .caption-gallery img {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+    }
+}
+
+
+
+
+
 @media (min-width: 1025px) {
     .bg-apartaments {
         background-image: url('../img/best-apartaments.jfif');
