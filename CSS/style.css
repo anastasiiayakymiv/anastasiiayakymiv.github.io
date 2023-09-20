@@ -6,6 +6,7 @@
     font-family: HelveticaNeueLTSTD;
     src: url('../fonts/HelveticaNeueLTStd.otf');
 }
+@import url('../CSS/tablet.css');
 * {
     margin: 0;
     padding: 0;
@@ -408,6 +409,7 @@ td:last-child {
     line-height: 16vw;
     text-transform: uppercase;
     display: block;
+
 }
 .our-facilities-logo {
     margin-left: 16vw;
@@ -577,7 +579,7 @@ td:last-child {
     line-height: 16vw;
     text-transform: uppercase;
     padding-top: 70px;
-    padding: 70px 10px 50px 10px;
+    padding: 70px 10px 0 10px;
 }
 .yellowline {
     padding: 100px 0 150px 0;
