@@ -714,7 +714,7 @@ td:last-child {
     height: 36px;
     margin-right: 15px;
 }
-
+/*
 @media (min-width: 1025px) {
     .gallery {
         padding-top: 170px;
@@ -802,7 +802,6 @@ td:last-child {
         margin: 0 -20px;
         letter-spacing: 3px;
         padding-bottom: 200px;
-            /* 120% */
     }
     .bankhotel {
         color: var(--White, #FFFCF6);
@@ -1246,11 +1245,4 @@ td:last-child {
         padding-bottom: 75px;
     }
 }
-
-@media (min-width: 481px) {
-}
-@media (min-width: 769px) {
-}
-@media (min-width: 1201px) {
-
-}
+*/
