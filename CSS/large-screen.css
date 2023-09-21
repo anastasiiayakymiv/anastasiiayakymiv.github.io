@@ -606,10 +606,10 @@
         width: 230px;
         height: 230px;
         position: relative;
-        margin-top: -160px;
+        top: -200px;
         margin-left: auto;
         z-index: 1;
-        margin-bottom: 200px;
+        margin-right: 200px;
     }
     .icon-bottom {
         display: none;
