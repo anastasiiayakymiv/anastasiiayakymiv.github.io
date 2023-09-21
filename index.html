@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/69061d5a94.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>BankHotel</title>
   </head>
   <body>
@@ -227,7 +228,41 @@
         <div class="photo1"></div>
         <div class="photo2"></div>
         <div class="photo3"></div>
-        <div class="photo4"></div>
+            <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/header.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/ice-restaurant.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/wine-bar.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/gallery6.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/ourfacilities-image1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/gallery2.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/rooms-img1.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/conference-hall.jfif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/het-in-touch1.jfif" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+  
         <div class="photo5"></div>
         </div>
         <div class="caption-gallery">
@@ -293,5 +328,20 @@
       </div>
     </section>
     <script src="scripts/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
   </body>
 </html>

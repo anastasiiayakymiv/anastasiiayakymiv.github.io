@@ -423,6 +423,7 @@
         position: absolute;
         margin-top: -170px;
         margin-left: -15px;
+        z-index: 1;
     }
 
     .photo3 {
@@ -433,31 +434,34 @@
         position: absolute;
         right: 0;
         margin-right: 0px;
-        margin-top: 380px;
+        margin-top: 350px;
         opacity: 1;
     }
-
-    .photo4 {
-        background-image: url('../img/gallery1.jfif');
-        background-position: right;
+    .swiper {
         width: 480px;
         height: 315px;
-        position: absolute;
-        margin-top: 20px;
-        z-index: 3;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
     }
-
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 480px;
+        height: 315px;
+        object-fit: cover;
+    }
     .photo5 {
         background-image: url('../img/gallery3.jfif');
         background-position: center;
         width: 125px;
         height: 175px;
         position: absolute;
-        margin-top: 280px;
+        margin-top: -100px;
         opacity: 1;
         margin-left: 0px;
     }

@@ -179,28 +179,48 @@
     .photo1 {
         width: 165px;
         height: 165px;
+        margin-top: -60px;
     }
     .photo2 {
+        margin-top: -40px;
         width: 180px;
         height: 235px;
+        z-index: 1;
     }
     .photo3 {
         width: 200px;
         height: 180px;
-        margin-top: 125px;
+        margin-top: 175px;
     }
-    .photo4 {
+    .swiper {
+        margin-top: 100px;
         width: 250px;
         height: 320px;
-        margin-top: 100px;
+        z-index: 5;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
     }
     .photo5 {
         width: 200px;
         height: 180px;
-        margin-top: 320px;
+        margin-top: -80px;
     }
     .caption-gallery {
+        margin-top: -80px;
         font-size: 22px;
+        width: 350px;
     }
     .caption-gallery img {
         width: 36px;
