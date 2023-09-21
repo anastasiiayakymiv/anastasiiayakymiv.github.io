@@ -35,13 +35,14 @@
     padding: 20px;
     left: 0;
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: calc(110vh - 50px);
     background: #313F38;
     font-family: HelveticaNeueLTStd;
     font-size: 50px;
         line-height: 30px;
         /* 100% */
         text-transform: uppercase;
+    z-index: 2;
 }
 
 .main-menu i {
