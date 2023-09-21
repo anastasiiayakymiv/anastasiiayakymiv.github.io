@@ -40,9 +40,8 @@
     font-family: HelveticaNeueLTStd;
     font-size: 50px;
         line-height: 30px;
-        /* 100% */
+        z-index: 2;
         text-transform: uppercase;
-    z-index: 2;
 }
 
 .main-menu i {
