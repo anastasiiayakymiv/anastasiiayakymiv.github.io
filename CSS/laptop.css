@@ -1,0 +1,495 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-wrap {
+        padding: 0 15px;
+    }
+    .name {
+        font-size: 120px;
+        text-align: left;
+        margin: 0;
+    }
+    .button-down {
+        display: block;
+    }
+    .header-bottom-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .textyellow {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .description-header {
+        font-size: 13px;
+        width: 350px;
+        text-align: right;
+        margin-right: 0;
+        width: 260px;
+    }
+    .line {
+        display: none;
+    }
+    .header-image {
+        height: 450px;
+        position: relative;
+    }
+    .header-table {
+        display: table;
+        width: 550px;
+        height: 70px;
+        margin-bottom: auto;
+        position: absolute;
+        bottom: 0; right: 0;
+    }
+    td:not(:last-child) {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    td:last-child {
+        font-size: 12px;
+        line-height: 20px;
+    }   
+    .bookroom-icon {
+        display: none;
+    }
+    .caption {
+        font-size: 16px;
+        float: right;
+        padding-top: 20px;
+    }
+    .number-a {
+        padding-top: 20px;
+        display: block;
+        font-size: 18px;
+    }
+    .address {
+        display: block;
+        padding-bottom: 75px;
+        font-size: 18px;
+    }
+
+    /* ABOUT US */
+    .about-us {
+        position: relative;
+    }
+    .aboutus-photo1 {
+        width: 325px;
+        height: 500px;
+        margin-top: 120px;
+        order: -1;
+    }
+
+    .aboutus-logo {
+        font-size: 90px;
+        line-height: 70px;
+        text-align: right;
+        display: inline-block;
+        margin-top: 150px;
+        position: relative;
+        right: 15%;
+    }
+    .us {
+        color: #FFFCF6;
+    }
+    .aboutus-photo2 {
+        background-image: url('../img/abouts-us2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 235px;
+        width: 155px;
+        margin-top: 105px;
+    }
+
+    .aboutus-label1 {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 15%; top: 90px;
+    }
+
+    .hq {
+        line-height: normal;
+        font-size: 28px;
+        letter-spacing: 1.08px;
+    }
+
+    .aboutus-description {
+        font-size: 12px;
+        line-height: 28px;
+        opacity: 0.64;
+        line-height: 23px;
+    }
+
+    .fer {
+        width: 250px;
+        position: absolute;
+        left: 43%;
+        bottom: 120px;
+    }
+
+    .about-wrap1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us {
+        padding-bottom: 70px;
+    }
+
+    /* ROOMS & APARTMENTS */
+    .roomsamount {
+        display: none;
+    }
+    .rooms-label {
+        font-size: 95px;
+        line-height: 80px;
+    }
+    .container-rooms1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        
+    }
+    .rooms-description {
+        font-size: 16px;
+        line-height: normal;
+        padding: 0;
+        width: 310px;
+    }
+    .container-rooms2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .rooms-image1 {
+        width: 335px;
+        height: 450px;
+        order: 1;
+    }
+    .bookroom-icon-show img {
+        width: 120px;
+        height: 120px;
+        top: 315px;
+    }
+    .superiortwin {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .superior-description {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        width: 250px;
+        text-align: left;
+    }
+
+    .button-right img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .number-of-page {
+        font-size: 16px;
+        order: 3;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .container-rooms3 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: relative;
+        bottom: 500px;
+        height: 0;
+        margin-left: 100px;
+        margin-top: 120px;
+    }
+    .container-rooms {
+        margin-left: -100px;
+        justify-content: unset;
+    }
+
+
+    /* OUR FACILITIES */
+    .our-facilities {
+        background-color: #FFFCF6;
+        padding-top: 80px;
+        position: relative;
+        height: 570px;
+    }
+    .caption4 {
+        font-size: 18px;
+    }
+    .our-facilities-logo span {
+        font-size: 100px;
+        line-height: 80px;
+    }
+    .our-facilities-logo {
+        margin-left: 32vw;
+    }
+    .star-icon {
+        height: 60px;
+    }
+    .of-image1 {
+        height: 160px;
+        width: 245px;
+        margin: 0;
+        position: absolute;
+        top: 350px;
+    }
+    .of-description {
+        font-size: 15px;
+        line-height: 25px;
+        width: 330px;
+        position: absolute;
+        top: 430px; 
+        right: 150px; 
+    }
+    .of-container2 {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    /* ICE RESTAURANT */
+    .ice-restaurant {
+        padding-top: 250px;
+        padding-bottom: 100px;
+        position: relative;
+    }
+    .ice-restaurant-image {
+        height: 500px;
+        width: 350px;
+        margin-left: auto;
+    }
+    .first {
+        font-size: 36px;
+        position: absolute;
+        top: 250px;
+    }
+
+    .icerestaurant-logo {
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 1.5px;
+        position: absolute;
+        top: 400px;
+    }
+    .resrtaurant-container1 {
+        margin-left: 140px;
+    }
+    .resrtaurant-container2 {
+        position: absolute;
+        top: 500px;
+        justify-content: unset;
+        height: 0;
+    }
+
+    .button-down2 img {
+        width: 100px;
+        margin-top: 0px;
+        margin-right: 0;
+    }
+    .restaurant-description {
+        font-size: 13px;
+        line-height: 23px;
+        width: 250px;
+        margin-left: 38px;
+    }
+    .conferencehall {
+        display: flex;
+        justify-content: space-between;
+    }
+    .winebar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conferencehall-image {
+        height: 180px;
+        width: 180px;
+        order: -1;
+        margin: 0 0 50px 0;
+    }
+
+    .second {
+        font-size: 36px;
+        line-height: 36px;
+        padding: 75px 0 0 0;
+    }
+
+    .conferencehall-logo {
+        font-size: 36px;
+        letter-spacing: 1.5px;
+        padding: 70px 0 0 0;
+    }
+
+    .winebar-logo {
+        font-size: 36px;
+        letter-spacing: 1.5px;
+        padding: 70px 0 0 0;
+    }
+
+    .winebar-image {
+        height: 180px;
+        width: 180px;
+        order: -1;
+        margin: 0;
+        margin: 0 0 50px 0;
+    }
+    .arrow {
+        display: block;
+        height: 15px;
+        padding: 80px 0 0 0;
+    }
+
+    /* BEST APERMENTS */
+    .bg-apartaments {
+        background-image: url('../img/best-apartaments.jfif');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 650px;
+        position: relative;
+    }
+
+    .apartaments-logo {
+        font-size: 100px;
+        line-height: 80px;
+        padding-top: 70px;
+        padding: 60px 15px 0 15px;
+        margin-right: 300px;
+    }
+    .yellowline {
+        display: none;
+    }
+    .bigyellowline {
+        display: block;
+        width: 100%;
+    }
+    .apartments-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 15px;
+        width: 330px;
+        position: absolute;
+        top: 250px;
+    }
+
+    /* GALLERY */
+    .gallery {
+        padding-top: 150px;
+        position: relative;
+    }
+    .gallery-logo {
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 80px;
+        padding-top: 30px;
+    }
+
+    .gallery-description {
+        font-size: 13px;
+        line-height: 23px;
+        width: 350px;
+        margin: 0 auto;
+        opacity: 0.8;
+        padding: 70px 0;
+    }
+    .photos {
+        position: relative;
+        height: 570px;
+    }
+    .photo1 {
+        background-image: url('../img/gallery4.jfif');
+        background-position: center;
+        width: 145px;
+        height: 145px;
+        right: 0;
+        margin-top: -170px;
+        margin-right: -15px;
+    }
+
+    .photo2 {
+        background-image: url('../img/gallery2.jfif');
+        background-position: top;
+        width: 145px;
+        height: 195px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: -15px;
+    }
+
+    .photo3 {
+        background-image: url('../img/gallery5.jfif');
+        background-position: center;
+        width: 250px;
+        height: 160px;
+        position: absolute;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 380px;
+        opacity: 1;
+    }
+
+    .photo4 {
+        background-image: url('../img/gallery1.jfif');
+        background-position: right;
+        width: 480px;
+        height: 315px;
+        position: absolute;
+        margin-top: 20px;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photo5 {
+        background-image: url('../img/gallery3.jfif');
+        background-position: center;
+        width: 125px;
+        height: 175px;
+        position: absolute;
+        margin-top: 280px;
+        opacity: 1;
+        margin-left: 0px;
+    }
+
+
+    .caption-gallery {
+        font-size: 16px;
+        width: 350px;
+        display: flex;
+        padding-bottom: 40px;
+        position: absolute;
+        bottom: 100px; left: 25vw;
+    }
+
+    .caption-gallery img {
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

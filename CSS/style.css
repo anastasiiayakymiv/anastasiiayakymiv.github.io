@@ -6,7 +6,6 @@
     font-family: HelveticaNeueLTSTD;
     src: url('../fonts/HelveticaNeueLTStd.otf');
 }
-@import url('../CSS/tablet.css');
 * {
     margin: 0;
     padding: 0;
