@@ -29,6 +29,7 @@
 .hide {
     display: none;
 }
+
 .menu-list {
     list-style: none;
     position: absolute;
@@ -229,8 +230,20 @@ td:last-child {
 .hall {
     font-style: italic;
 }
+.header-top {
+    background-color: #313F38;
+    transition: all 0.3s ease;
+}
 
-
+.header-top.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 /* SECTION ABOUT US */
 .about-us {
     padding-top: 40px;
