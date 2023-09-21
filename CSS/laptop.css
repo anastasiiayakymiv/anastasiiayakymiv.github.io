@@ -477,6 +477,159 @@
         height: 36px;
         margin-right: 15px;
     }
+
+    /* GET IN TOUCH */
+    .bottom {
+        font-size: 25px;
+        line-height: 25px;
+        padding-top: 70px;
+    }
+    .bottom-address {
+        width: 200px;
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 50px;
+        margin-right: 20px;
+    }
+    .getintouch-logo {
+        color:  #1B3B36;
+        font-family: Miracle;
+        font-size: 115px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105px;
+        text-transform: uppercase;
+        padding-top: 70px;
+        position: relative;
+        z-index: 2;
+    }
+    .star-bottom {
+        height: 60px;
+    }
+    .touch {
+        display: block;
+        color: #FCD043;
+        text-align: right;
+    }
+    .bigyellowline-bottom {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        padding-left: -15px;
+        margin-right: -15px;
+    }
+    .gin-image {
+        width: 230px;
+        height: 230px;
+        position: relative;
+        margin-top: -160px;
+        margin-left: auto;
+        z-index: 1;
+        margin-bottom: 200px;
+    }
+    .icon-bottom img{
+        width: 160px;
+        height: 160px;
+    }
+    .icon-bottom {
+        display: none;
+    }
+    .tb-bottom {
+        display: block;
+        position: relative;
+        bottom: 100px;
+    }
+    .find {
+        display: block;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+    .table-bottom {
+        bottom: auto;
+        right: auto;
+        padding-bottom: 40px;
+        background-color: #FFFCF6;
+        border: 1px solid #1B3B36;
+    }
+    .table-bottom td:not(:last-child) {
+        color: #1B3B36;
+        border-right: 1px solid #1B3B36;
+        opacity: 1;
+    }
+    .table-bottom td:last-child {
+        background-color: #1B3B36;
+    }
+    .table-bottom a {
+        color: #FFFCF6;
+    }
+    .gin-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .style-gin {
+        color: #1B3B36;
+        font-family: Abhaya Libre;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .desc-gin {
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        opacity: 0.8;
+        width: 190px;
+        padding: 20px 0;
+    }
+    .reserved {
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align:left;
+        opacity: 0.8;
+        padding: 30px 0;
+    }
+    .inputemail {
+        height: 50px;
+        width: 160px;
+        font-family: HelveticaNeueLTStd;
+        font-size: 12px;
+        background-color: #FFFCF6;
+        padding: 10px;
+    }
+    .social-links {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social-links a {
+        padding-bottom: 10px;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
 }
 
 
