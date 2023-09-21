@@ -26,13 +26,26 @@
     align-items: center;
     height: 50px;
 }
-.menu-list {
+.hide {
     display: none;
+}
+.menu-list {
     list-style: none;
     position: absolute;
+    padding: 20px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background: #313F38;
+    font-family: HelveticaNeueLTStd;
+    font-size: 50px;
+        line-height: 30px;
+        /* 100% */
+        text-transform: uppercase;
 }
-.main-menu  {
-    position: relative;
+
+.main-menu i {
+    cursor: pointer;
 }
 .menu-list a {
     text-decoration: none;
