@@ -74,13 +74,47 @@
     .header-image {
         height: 530px;
     }
-    .header-table {
-        display: table;
-        width: 720px;
-        height: 85px;
+    .header-wrap {
+       display: flex;
+       position: absolute;
+       right: 0; 
+   }
+   .dropdown {
+       width: 250px;
+       height: 105px;
+       font-family: HelveticaNeueLTStd;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 20px;
+       text-transform: uppercase;
+       opacity: 0.9;
+       background: rgba(49, 63, 56, 0.48);
+       color: #FFFCF6;
+       padding-left: 30px;
+   }
+   .btn {
+       background-color: #FCD043;
+       width: 200px;
+       height: 105px;
+       color: #1B3B36;
+       text-align: center;
+       font-family: Helvetica Neue LT Std;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 105px;
+       text-transform: uppercase;
+       cursor: pointer;
+   }
+    .hide1 {
+        display: none;
     }
     .bookroom-icon {
-        display: none;
+        width: 140px;
+        height: 140px;
+        font-size: 18px;
+        padding-top: 55px;
     }
     .caption {
         font-size: 22px;
@@ -623,7 +657,7 @@
     .tb-bottom {
         display: block;
         position: relative;
-        bottom: 100px;
+        bottom: 120px;
     }
     .find {
         display: block;
@@ -636,25 +670,21 @@
         text-transform: uppercase;
         padding-bottom: 30px;
     }
-    .table-bottom {
-        position: absolute;
-        bottom: auto;
-        right: auto;
-        padding-bottom: 40px;
-        background-color: #FFFCF6;
-        border: 1px solid #1B3B36;
-    }
-    .table-bottom td:not(:last-child) {
-        color: #1B3B36;
-        border-right: 1px solid #1B3B36;
-        opacity: 1;
-    }
-    .table-bottom td:last-child {
-        background-color: #1B3B36;
-    }
-    .table-bottom a {
-        color: #FFFCF6;
-    }
+        .footer-wrap {
+            left: 0;
+            right: auto;
+            bottom: auto;
+        }
+    
+        .footer-dropdown {
+            color: #313F38;
+            background-color: #FFFCF6;
+        }
+    
+        .footer-btn {
+            background-color: #313F38;
+            color: #FFFCF6;
+        }
     .gin-container {
         display: flex;
         justify-content: space-between;

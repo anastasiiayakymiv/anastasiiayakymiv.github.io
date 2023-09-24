@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BankHotel</title>
     <script
       src="https://kit.fontawesome.com/69061d5a94.js"
       crossorigin="anonymous"
@@ -16,7 +17,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <title>BankHotel</title>
   </head>
   <body>
     <header class="header" id="home">
@@ -60,24 +60,16 @@
             </p>
           </div>
           <div class="header-image">
-            <table class="header-table">
-              <thead>
-                <tr>
-                  <td>
-                    Check In
-                    <img src="img/icon-table.svg" alt="" class="icontable" />
-                  </td>
-                  <td>
-                    Check Out
-                    <img src="img/icon-table.svg" alt="" class="icontable" />
-                  </td>
-                  <td><a href="#">Book Room</a></td>
-                </tr>
-              </thead>
-            </table>
-            <div class="bookroom-icon">
-              <a href="#"><img src="img/button-bookroom.svg" alt="" /></a>
+            <div class="header-wrap">
+              <select class="dropdown">
+                <option value="">Check In</option>
+              </select>
+              <select class="dropdown">
+                <option value="">Check Out</option>
+              </select>
+              <div href="#" class="btn">Book room</div>
             </div>
+            <div href="#" class="bookroom-icon hide1">Book room</div>
           </div>
           <h2 class="caption">
             Art & Congress <br /><span class="hall"> hall</span>
@@ -140,9 +132,7 @@
           </div>
           <div class="container-rooms2">
             <div class="rooms-image1">
-              <div class="bookroom-icon-show">
-                <a href="#"><img src="img/button-bookroom.svg" alt="" /></a>
-              </div>
+              <div href="#" class="bookroom-icon">Book room</div>
             </div>
             <div class="rooms-image2"></div>
             <div class="label-since black">
@@ -329,26 +319,18 @@
           <span class="touch">Touch</span>
         </div>
         <div class="gin-image"></div>
-        <div class="icon-bottom">
-          <a href="#"><img src="img/button-bookroom.svg" alt="" /></a>
-        </div>
+        <div href="#" class="bookroom-icon icon-bottom">Book room</div>
         <div class="tb-bottom">
-          <p class="find">Find a room</p>
-          <table class="header-table table-bottom">
-            <thead>
-              <tr>
-                <td>
-                  Check In
-                  <img src="img/icon-table.svg" alt="" class="icontable" />
-                </td>
-                <td>
-                  Check Out
-                  <img src="img/icon-table.svg" alt="" class="icontable" />
-                </td>
-                <td><a href="#">Book Room</a></td>
-              </tr>
-            </thead>
-          </table>
+          <p class="find">Find a room :</p>
+          <div class="header-wrap footer-wrap">
+            <select class="dropdown footer-dropdown">
+              <option value="">Check In</option>
+            </select>
+            <select class="dropdown footer-dropdown">
+              <option value="">Check Out</option>
+            </select>
+            <div href="#" class="btn footer-btn">Book room</div>
+          </div>
         </div>
         <hr class="line-long" />
 
