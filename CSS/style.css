@@ -187,6 +187,8 @@
     line-height: 125px;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
+    color: #313F38;
 }
 
 .bookroom-icon {
@@ -206,6 +208,8 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 50px;
+    text-decoration: none;
+    color: #313F38;
 }
 .number-a {
     color: #FCD043;
@@ -322,7 +326,10 @@
 /* SECTION ROOMS & APARTMENTS */
 .rooms-apartments {
     background-color: #FFFCF6;
-    padding-top: 70px;
+    padding-top: 40px;
+}
+.roomsapartments-top {
+    background-color: #FFFCF6;
 }
 .roomsamount {
     display: block;
@@ -705,6 +712,7 @@
     margin-top: 130px;
     opacity: .4;
 }
+/*
 .swiper {
     margin-top: 30px;
     width: 200px;
@@ -728,7 +736,9 @@
     width: 200px;
     height: 250px;
     object-fit: cover;
-}
+}*/
+
+
 .photo5 {
     background-image: url('../img/gallery6.jfif');
     background-position: center;

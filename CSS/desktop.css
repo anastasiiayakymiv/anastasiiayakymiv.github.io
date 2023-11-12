@@ -538,7 +538,7 @@
         margin-right: 0px;
         margin-top: 540px;
         opacity: 1;
-    }
+    }/*
     .swiper {
         width: 670px;
         height: 435px;
@@ -556,7 +556,7 @@
         width: 670px;
         height: 435px;
         object-fit: cover;
-    }
+    }*/
     .photo5 {
         background-image: url('../img/gallery3.jfif');
         background-position: center;
