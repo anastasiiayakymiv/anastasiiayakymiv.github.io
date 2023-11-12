@@ -152,87 +152,62 @@
     }
 
     /* ROOMS & APARTMENTS */
-    .roomsamount {
-        display: none;
+    .rooms-apartments {
+        padding-bottom: 70px;
     }
-    .rooms-label {
+    .rooms-logo {
         font-size: 95px;
         line-height: 80px;
     }
-    .container-rooms1 {
+    .rooms-amount {
+        display: none;
+    }
+    .rooms-top {
         display: flex;
         justify-content: space-between;
-        margin-top: 40px;
-        
+        margin: 40px 0;
     }
     .rooms-description {
         font-size: 16px;
-        line-height: normal;
-        padding: 0;
         width: 310px;
+        padding: 0;
     }
-    .container-rooms2 {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 100px;
-    }
-    .rooms-image1 {
+    .room-image-page1 {
         width: 335px;
         height: 450px;
-        order: 1;
+        position: absolute;
+        right: 0; bottom: 20px;
     }
-    .bookroom-icon-show img {
-        width: 120px;
-        height: 120px;
-        top: 315px;
+    .wrap {
+        margin-top: 80px;
+        padding-top: 40px;
+        position: relative;
     }
-    .superiortwin {
+    .name-of-room {
         font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 1.08px;
-        text-align: left;
         margin-left: 50px;
+        margin-left: 145px;
     }
-
-    .superior-description {
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
+    .room-description {
+        font-size: 16px;
+        line-height: 26px;
         width: 250px;
-        text-align: left;
     }
-
-    .button-right img {
-        width: 90px;
-        height: 90px;
+    .container {
+        justify-content: unset;
+        padding-bottom: 50px;
     }
-
     .number-of-page {
         font-size: 16px;
-        order: 3;
-        text-align: left;
-        margin-left: 50px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 145px;
     }
-
-    .container-rooms3 {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        position: relative;
-        bottom: 500px;
-        height: 0;
-        margin-left: 100px;
-        margin-top: 120px;
+    .button-rooms {
+        width: 90px;
+        height: 90px;
+        margin-right: 55px;
     }
-    .container-rooms {
-        margin-left: -100px;
-        justify-content: unset;
-    }
-
-
     /* OUR FACILITIES */
     .our-facilities {
         background-color: #FFFCF6;

@@ -207,105 +207,84 @@
     }
 
     /* ROOMS & APARTMENTS */
-    .roomsamount {
-        display: none;
+    .rooms-apartments {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
-    .rooms-label {
+    .rooms-logo {
         font-size: 105px;
         line-height: 95px;
     }
-    .container-rooms1 {
+    .rooms-amount {
+        display: none;
+    }
+    .rooms-top {
         display: flex;
         justify-content: space-between;
-        margin-top: 60px;
+        margin: 40px 0;
     }
     .rooms-description {
         font-size: 18px;
-        line-height: normal;
-        padding: 0;
         width: 345px;
+        padding: 0;
     }
-    .container-rooms2 {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 120px;
-    }
-    .rooms-image1 {
-        width: 470px;
+    .room-image-page1 {
+        width: 450px;
         height: 570px;
-        order: 1;
+        position: absolute;
+        margin-top: -20px;
+        right: 0; 
     }
-    .rooms-image2 {
+    .wrap {
+        margin-top: 120px;
+        position: relative;
+    }
+    .name-of-room {
+        font-size: 36px;
+        margin-left: 50px;
+        margin-left: 250px;
+        margin-top: -45px;
+    }
+    .room-description {
+        font-size: 13px;
+        line-height: 23px;
+        width: 250px;
+    }
+    .container {
+        justify-content: unset;
+        padding-bottom: 70px;
+    }
+    .number-of-page {
+        font-size: 16px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 250px;
+    }
+    .button-rooms {
+        width: 100px;
+        height: 100px;
+        margin-right: 150px;
+    }
+    .black {
+        color: #1B3B36;
+        border: 1px solid #313F38;
+        position: absolute;
+        top: 0; margin-left: 250px;
+        margin-top: 0;
+    }
+    .star {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .room-image2-page1 {
         background-image: url('../img/rooms-img2.jfif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 205px;
         width: 195px;
-        order: -1;
+        display: block;
     }
-
-    .black {
-        color: #1B3B36;
-        border: 1px solid #313F38;
-        margin-top: 0;
-    }
-
-    .bookroom-icon-show img {
-        width: 140px;
-        height: 140px;
-        top: 410px;
-    }
-
-   .superiortwin {
-       font-size: 36px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: normal;
-       letter-spacing: 1.08px;
-       text-align: left;
-       margin-left: 50px;
-   }
-
-   .superior-description {
-       font-size: 13px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: 23px;
-       width: 250px;
-       text-align: left;
-   }
-
-   .button-right img {
-       width: 100px;
-       height: 100px;
-   }
-
-   .number-of-page {
-       font-size: 16px;
-       order: 3;
-       text-align: left;
-       margin-left: 50px;
-   }
-
-   .container-rooms3 {
-       display: flex;
-       flex-direction: column;
-       width: 50%;
-       position: relative;
-       bottom: 500px;
-       height: 0;
-       margin-left: 210px;
-       margin-top: 110px;
-   }
-   .button-right img {
-    margin-right: 110px;
-   }
-   .container-rooms {
-       margin-left: -165px;
-       justify-content: unset;
-   }
-
    /* OUR FACILITIES */
     .our-facilities {
         background-color: #FFFCF6;

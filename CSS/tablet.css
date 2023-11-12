@@ -35,51 +35,33 @@
         line-height: 50px;
     }
     /* SECTION ROOMS & APARTMENTS */  
-    .roomsamount {
-        font-size: 22px;
-    }
-    .rooms-label {
+    .rooms-logo {
         font-size: 80px;
         line-height: 90px;
     }
-    .rooms-description {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-transform: uppercase;
-        padding: 50px 0;
-        width: 60%;
+    .rooms-amount {
+        font-size: 22px;
     }
-    .rooms-image1 {
+    .roooms-description {
+        font-size: 20px;
+    }
+    .room-image-page1 {
         height: 450px;
     }
     .number-of-page {
         font-size: 25px;
     }
-    .superiortwin {
+    .name-of-room {
         font-size: 55px;
         line-height: 45px;
     }
-    .button-right img {
-        width: 100px;
-        height: 100px;
-        margin-right: 60px;
-    }
-    .superior-description {
+    .room-description {
         font-size: 20px;
         line-height: 35px;
-        }
-    .line-long {
-        opacity: 0.24;
     }
-    .bookroom-icon-show img {
-        width: 110px;
-        height: 110px;
-        float: right;
-        margin-right: 10px;
-        position: relative;
-        top: 320px;
+    .button-rooms {
+        width: 100px;
+        height: 100px;
     }
     /* OUR FACILITIES */
     .caption4 {
