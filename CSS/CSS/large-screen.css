@@ -1,0 +1,743 @@
+@media (min-width: 1201px)  {
+    .main-menu i {
+        display: none;
+    }
+    .menu-list {
+        position: static;
+        display: flex;
+        line-height: 70px;
+        height: auto;
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }  
+    .menu-list li {
+        padding-bottom: 0px;
+    }  
+    .menu-list a {
+        font-size: 14px;
+        line-height: 20px;
+        font-family: HelveticaNeueLTStd;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFFCF6;
+    }
+    .menu-list li:not(:last-child) {
+        margin-right: 60px;
+    }
+    .header-top {
+        height: 70px;
+    }
+
+    .content-wrap {
+        padding: 0 20px;
+    }
+    .name {
+        font-size: 150px;
+        text-align: left;
+        margin: 0;
+    }
+    .number {
+        display: block;
+        color: #FFFCF6;
+        font-family: HelveticaNeueLTStd;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .label-since {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        font-size: 22px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .star {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    .button-down {
+        display: block;
+        margin-top: 45px;
+    }
+
+    .header-bottom-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .textyellow {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .description-header {
+        font-size: 18px;
+        width: 350px;
+        text-align: right;
+        margin-right: 0;
+    }
+    .line {
+        display: none;
+    }
+    .header-image {
+        height: 590px;
+    }
+
+   .header-wrap {
+       display: flex;
+   }
+    .hide1 {
+        display: none;
+    }
+    .bookroom-icon {
+        width: 160px;
+        height: 160px;
+        font-size: 20px;
+        padding-top: 65px;
+    }
+    .caption {
+        font-size: 26px;
+        float: right;
+        padding-top: 20px;
+    }
+    .number-a {
+        padding-top: 20px;
+        display: block;
+        font-size: 26px;
+    }
+
+    .address {
+        display: block;
+        padding-bottom: 75px;
+        font-size: 26px;
+    }
+
+    /* ABOUT US */
+    .about-us {
+        position: relative;
+    }
+    .aboutus-photo1 {
+        width: 450px;
+        height: 600px;
+        margin-top: 120px;
+        order: -1;
+    }
+    .aboutus-logo {
+        font-size: 125px;
+        line-height: 105px;
+        text-align: right;
+        display: inline-block;
+        margin-top: 100px;
+        position: relative;
+        right: 15%;
+    }
+    .us {
+        color: #FFFCF6;
+    }
+    .aboutus-photo2 {
+        background-image: url('../img/abouts-us2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 340px;
+        width: 220px;
+        margin-top: 105px;
+    }
+
+    .aboutus-label1 {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 17%;
+        top: 90px;
+    }
+
+    .hq {
+        line-height: normal;
+        font-size: 36px;
+        letter-spacing: 1.08px;
+    }
+    .aboutus-description {
+        font-size: 16px;
+        line-height: 28px;
+        opacity: 0.64;
+        line-height: 23px;
+    }
+    .fer {
+        width: 400px;
+        position: absolute;
+        left: 40%;
+        bottom: 120px;
+    }
+    .about-wrap1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us {
+        padding-bottom: 70px;
+    }
+    .aboutus-button {
+        width: 100px;
+        height: 0;
+        display: block;
+        position: absolute;
+        right: 110px;
+        bottom: 300px;
+    }
+    /* ROOMS & APARTMENTS */
+    .rooms-apartments {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .rooms-logo {
+        font-size: 125px;
+        line-height: 105px;
+    }
+    .rooms-amount {
+        display: none;
+    }
+    .rooms-top {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0;
+    }
+    .rooms-description {
+        font-size: 18px;
+    line-height: normal;
+    padding: 0;
+    width: 345px;
+    height: 250px;
+    }
+    .room-image-page1 {
+        width: 470px;
+        height: 570px;
+        position: absolute;
+        right: 0; 
+        margin-top: -20px;
+    }
+    .room-image-page2 {
+        width: 470px;
+        height: 570px;
+        position: absolute;
+        right: 0;
+        margin-top: -20px;
+    }
+    .room-image-page3 {
+        width: 470px;
+        height: 570px;
+        position: absolute;
+        right: 0;
+        margin-top: -20px;
+    }
+    .room-image-page4 {
+        width: 470px;
+        height: 570px;
+        position: absolute;
+        right: 0;
+        margin-top: -20px;
+    }
+    .wrap {
+        margin-top: 50px;
+        position: relative;
+    }
+    .name-of-room {
+        font-size: 50px;
+        margin-left: 50px;
+        margin-left: 310px;
+        margin-top: -70px;
+    }
+    .room-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 350px;
+    }
+    .container {
+        justify-content: unset;
+        padding-bottom: 70px;
+    }
+    .number-of-page {
+        font-size: 22px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 310px;
+    }
+    .button-rooms {
+        width: 110px;
+        height: 110px;
+        margin-right: 195px;
+    }
+    .black {
+        color: #1B3B36;
+        border: 1px solid #313F38;
+        position: absolute;
+        top: 0; margin-left: 310px;
+        margin-top: 0;
+    }
+    .star {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .room-image2-page1 {
+        background-image: url('../img/rooms&apart/page1/rooms-img2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 205px;
+        width: 195px;
+        display: block;
+    }
+    .room-image2-page2 {
+        background-image: url('../img/rooms&apart/page2/rooms2-4.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 205px;
+        width: 195px;
+        display: block;
+    }
+    .room-image2-page3 {
+        background-image: url('../img/rooms&apart/page3/rooms3-2.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 205px;
+        width: 195px;
+        display: block;
+    }
+    .room-image2-page4 {
+        background-image: url('../img/rooms&apart/page4/rooms4-1.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 205px;
+        width: 195px;
+        display: block;
+    }
+    /* OUR FACILITIES */
+    .our-facilities {
+        background-color: #FFFCF6;
+        padding-top: 100px;
+    }
+    .caption4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        order: -1;
+    }
+    .our-facilities-logo span {
+        font-size: 125px;
+        line-height: 105px;
+        order: 1;
+    }
+    .of-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .of-image2 {
+        background-image: url('../img/ourfacilities-image2.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 335px;
+        height: 220px;
+        order: 3;
+        margin-top: 90px;
+    }
+    .star-icon {
+        height: 60px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .of-image1 {
+        height: 215px;
+        width: 335px;
+        margin: 0;
+    }
+    .of-description {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 70px;
+        margin-left: 62px;
+        width: 350px;
+    }
+    .of-container2 {
+        display: flex;
+        margin-top: 100px;
+    }
+    /* ICE RESTAURANT */
+    .ice-restaurant {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        position: relative;
+    }
+
+    .ice-restaurant-image {
+        height: 620px;
+        width: 450px;
+        margin-left: auto;
+    }
+    .first {
+        font-size: 50px;
+        position: absolute;
+        top: 250px;
+
+    }
+    .icerestaurant-logo {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        position: absolute;
+        top: 400px;
+        margin-top: 60px;
+    }
+    .resrtaurant-container1 {
+        margin-left: 420px;
+    }
+
+    .resrtaurant-container2 {
+        position: absolute;
+        top: 550px;
+        justify-content: unset;
+        height: 0;
+    }
+    .button-down2 img {
+        width: 140px;
+        margin-top: 0px;
+        margin-right: 200px;
+    }
+    .restaurant-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 300px;
+        margin-left: 80px;
+    }
+    .conferencehall {
+        display: flex;
+        justify-content: space-between;
+    }
+    .winebar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .conferencehall-image {
+        height: 215px;
+        width: 215px;
+        order: -1;
+        margin: 0 0 50px 0;
+    }
+
+    .second {
+        font-size: 50px;
+        line-height: 36px;
+        padding: 75px 0 0 0;
+    }
+
+    .conferencehall-logo {
+        font-size: 50px;
+        letter-spacing: 1.5px;
+        padding: 55px 0 0 0;
+    }
+
+    .winebar-logo {
+        font-size: 50px;
+        letter-spacing: 1.5px;
+        padding: 55px 0 0 0;
+    }
+
+    .winebar-image {
+        height: 215px;
+        width: 215px;
+        order: -1;
+        margin: 0;
+        margin: 0 0 50px 0;
+    }
+    .arrow {
+        display: block;
+        height: 15px;
+        padding: 80px 0 0 0;
+    }
+
+    /* BEST APARTMENTS */
+    .bg-apartaments {
+        background-image: url('../img/best-apartaments.jfif');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 750px;
+        position: relative;
+    }
+
+    .apartaments-logo {
+        font-size: 125px;
+        line-height: 105px;
+        padding-top: 70px;
+        padding: 60px 15px 0 15px;
+        margin-right: 450px;
+    }
+    .yellowline {
+        display: none;
+    }
+    .bigyellowline {
+        display: block;
+        width: 100%;
+    }
+    .apartments-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 15px;
+        width: 330px;
+        position: absolute;
+        top: 290px;
+    }
+    /* GALLERY */
+    .gallery {
+        padding-top: 150px;
+    }
+    .gallery-logo {
+        font-size: 125px;
+        font-weight: 400;
+        line-height: 60px;
+        padding-top: 50px;
+    }
+
+    .gallery-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 450px;
+        margin: 0 auto;
+        opacity: 0.8;
+        padding: 70px 0;
+    }
+
+    .photos {
+        position: relative;
+        height: 650px;
+    }
+
+    .photo1 {
+        background-image: url('../img/gallery4.jfif');
+        background-position: center;
+        width: 215px;
+        height: 215px;
+        right: 0;
+        margin-top: -170px;
+        margin-right: -20px;
+    }
+
+    .photo2 {
+        background-image: url('../img/gallery2.jfif');
+        background-position: top;
+        width: 215px;
+        height: 210px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: -20px;
+    }
+
+    .photo3 {
+        background-image: url('../img/gallery5.jfif');
+        background-position: center;
+        width: 315px;
+        height: 195px;
+        position: absolute;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 450px;
+        opacity: 1;
+    }
+
+    .photo5 {
+        background-image: url('../img/gallery3.jfif');
+        background-position: center;
+        width: 195px;
+        height: 275px;
+        position: absolute;
+        margin-top: -100px;
+        opacity: 1;
+        margin-left: 0px;
+    }
+
+    .marks {
+        padding-top: 150px;
+        display: block;
+        color: rgba(255, 252, 246, 0.12);
+        font-family: Miracle;
+        font-size: 6.9vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80px;
+        margin: 0 -20px;
+        padding-bottom: 150px;
+        /* 120% */
+    }
+
+    .bankhotel {
+        color: var(--White, #FFFCF6);
+    }
+
+    .caption-gallery {
+        font-size: 22px;
+        width: 350px;
+        display: flex;
+        padding-bottom: 40px;
+        position: relative;
+        left: 400px;
+        margin-top: -150px;
+    }
+
+    .caption-gallery img {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+    }
+    /* GET IN TOUCH */
+    .bottom {
+        font-size: 30px;
+        line-height: 50px;
+        padding-top: 50px;
+    }
+    .bottom-address {
+        width: 240px;
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 50px;
+    }
+    .getintouch-logo {
+        color:  #1B3B36;
+        font-family: Miracle;
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 2;
+        margin-left: 40px;
+    }
+    .star-bottom {
+        height: 140px;
+    }
+    .touch {
+        display: block;
+        color: #FCD043;
+        text-align: right;
+        margin-right: 40px;
+    }
+    .bigyellowline-bottom {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        padding-left: -15px;
+        margin-right: -15px;
+    }
+    .gin-image {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin-top: -230px;
+        margin-bottom: 200px;
+        margin-right: 200px;
+    }
+    .icon-bottom {
+        display: none;
+    }
+    .tb-bottom {
+        display: block;
+        position: relative;
+        bottom: 100px;
+        padding-bottom: 60px;
+    }
+    .find {
+        display: block;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+        .footer-wrap {
+            left: 0;
+            right: auto;
+            bottom: auto;
+        }
+    
+        .footer-dropdown {
+            color: #313F38;
+            background-color: #FFFCF6;
+        }
+    
+        .footer-btn {
+            background-color: #313F38;
+            color: #FFFCF6;
+        }
+    .gin-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .style-gin {
+        color: #1B3B36;
+        font-family: Abhaya Libre;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .desc-gin {
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.8;
+        width: 220px;
+        padding: 20px 0;
+    }
+    .reserved {
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align:left;
+        opacity: 0.8;
+        padding: 30px 0;
+    }
+    .inputemail {
+        height: 50px;
+        width: 160px;
+        font-family: HelveticaNeueLTStd;
+        font-size: 15px;
+        background-color: #FFFCF6;
+        padding: 10px;
+    }
+    .social-links {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social-links a {
+        padding-bottom: 10px;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

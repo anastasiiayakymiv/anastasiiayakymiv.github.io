@@ -1,0 +1,851 @@
+@font-face {
+    font-family: Miracle;
+    src: url('../fonts/Miracle.otf');
+}
+@font-face {
+    font-family: HelveticaNeueLTSTD;
+    src: url('../fonts/HelveticaNeueLTStd.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* HEADER MENU AND OTHER HEADER */
+.header {
+    background-color: #313F38;
+}
+.content-wrap {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.hide {
+    display: none;
+}
+
+.menu-list {
+    list-style: none;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    width: 100vw;
+    height: calc(110vh - 50px);
+    background: #313F38; 
+    z-index: 2;
+    padding-top: 60px;
+    text-align: center;
+}
+.menu-list li {
+    padding-bottom: 30px;
+}
+.menu-list a {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: HelveticaNeueLTStd;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFCF6;  
+}
+
+.main-menu i {
+    cursor: pointer;
+}
+.number {
+    display: none;
+}
+.logo {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.main-menu i {
+    color: #FFFCF6;
+    font-size: 20px;
+}
+.header-bottom-top {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 21vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+}
+.yellow {
+    color: #FCD043;
+}
+.label-since {
+    border: 1px solid #FFFCF6;
+    width: 230px;
+    height: 65px;
+    border-radius: 45px;
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 65px;
+    text-transform: capitalize;
+    display: none;
+    margin-top: 45px;
+}
+.star {
+    width: 30px;
+    margin-right: 10px;
+}
+.button-down {
+    margin-top: 40px;
+    display: none;
+}
+
+.textyellow {
+    color: #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.2vw;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.description-header {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 23px;
+    margin: 0 32px;
+}
+.line {
+    margin: 25px 35px;
+    opacity: 0.12;
+    z-index: 1;
+}
+.header-image {
+    background-image: url('../img/header.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 430px;
+    margin: 40px 0;
+    position: relative;
+}
+
+.header-image-dropdowns {
+    display: flex;
+    
+    
+}
+
+.header-wrap {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+.dropdown {
+    width: 350px;
+    height: 125px;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    background: rgba(49, 63, 56, 0.48);
+    color: #FFFCF6;
+    padding-left: 30px;
+}
+.btn {
+    background-color: #FCD043;
+    width: 300px;
+    height: 125px;
+    color: #1B3B36;
+    text-align: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #313F38;
+}
+
+.bookroom-icon {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 81% 9%, 98% 35%, 98% 62%, 81% 87%, 53% 96%, 19% 88%, 2% 63%, 2% 34%, 19% 10%);
+    background-color: #FCD043;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0; right: 0;
+    font-family: HelveticaNeueLTStd;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    text-decoration: none;
+    color: #313F38;
+}
+.number-a {
+    color: #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    display: none;
+}
+.address {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: none;
+}
+.caption {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.hall {
+    font-style: italic;
+}
+.header-top {
+    background-color: #313F38;
+    transition: all 0.3s ease;
+}
+
+.header-top.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.5);
+}
+/* SECTION ABOUT US */
+.about-us {
+    padding-top: 40px;
+    background-color: #313F38;
+    padding-bottom: 25px;
+}
+.aboutus-bg {
+    background-image: url('../img/lines.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+.aboutus-logo {
+    color: #FCD043;
+    text-align: right;
+    font-family: Miracle;
+    font-size: 18.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.7vw;
+    text-transform: uppercase; 
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: inline-block;
+}
+
+.aboutus-photo1 {
+    background-image: url('../img/about-us1.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-bottom: 55px;
+}
+.hq {
+    color: #FFFCF6;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+} 
+.aboutus-description {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    width: 90%;
+    opacity: 0.8;
+}
+.aboutus-label1 {
+    float: right;
+}
+.aboutus-button {
+    display: none;
+}
+
+/* SECTION ROOMS & APARTMENTS */
+.rooms-apartments {
+    background-color: #FFFCF6;
+    padding-top: 50px;
+    position: relative;
+}
+.rooms-logo {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 16vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw; /* 100% */
+    text-transform: uppercase;
+}
+.rooms-amount {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: right;
+    padding-bottom: 30px;
+}
+.rooms-description {
+    width: 50%;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 50px 0;
+    position: relative;
+}
+.room-image-page1 {
+    background-image: url('../img/rooms&apart/page1/rooms-img1.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page2 {
+    background-image: url('../img/rooms&apart/page2/rooms2-1.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page3 {
+    background-image: url('../img/rooms&apart/page3/rooms3-1.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page4 {
+    background-image: url('../img/rooms&apart/page4/rooms4-2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.number-of-page {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 40px 0 30px 0;
+    text-align: right;
+}
+.four {
+    color: rgba(27, 59, 54, 0.32);
+}
+.name-of-room {
+    color: var(--Text, #1B3B36);
+    font-family: Miracle;
+    font-size: 8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8vw; 
+    text-transform: capitalize;
+}
+.room-description {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.1vw; 
+    width: 60%;
+    opacity: 0.8;
+    padding: 50px 0;
+}
+.room-image2-page1 {
+    display: none;
+}
+.button-rooms {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+/* OUR FACILITIES */
+.our-facilities {
+    background-color: #FFFCF6;
+    padding-top: 50px;
+}
+.caption4 {
+    color: #1B3B36;
+    text-align: right;
+    font-family: HelveticaNeueLTStd;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.our-facilities-logo span{
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 16vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw;
+    text-transform: uppercase;
+    display: block;
+
+}
+.our-facilities-logo {
+    margin-left: 16vw;
+    margin-bottom: 45px;
+}
+.star-icon {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.of-image1 {
+    background-image: url('../img/ourfacilities-image1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 135px;
+    width: 200px;
+    margin: 0 auto;
+}
+.of-description {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.1vw;
+    margin-top: 45px;
+    margin-left: 135px;
+    opacity: 0.8;
+}
+
+
+/* ICE RESTAURANT */
+.ice-restaurant {
+    background-color: #FFFCF6;
+    padding-top: 70px;
+}
+.ice-restaurant-image {
+    background-image: url('../img/ice-restaurant.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.first {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+.icerestaurant-logo {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: capitalize;
+    width: 52.5vw;
+}
+.resrtaurant-container1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.resrtaurant-container2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-down2 img{
+    width: 70px;
+    margin-top: 10px;
+}
+.restaurant-description {
+    width: 52.5vw;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.1vw;
+    opacity: 0.8;
+}
+
+.conferencehall {
+    padding-top: 50px;
+}
+.winebar {
+    padding-top: 50px;
+}
+.conferencehall-image {
+    background-image: url('../img/conference-hall.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.second {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 9.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.3vw;
+    text-transform: uppercase;
+    text-align: right;
+}
+.conferencehall-logo {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.2vw;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.winebar-logo {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.2vw;
+    text-transform: capitalize;
+    padding: 40px 0 70px 0;
+}
+.winebar-image {
+    background-image: url('../img/wine-bar.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    
+}
+.arrow {
+    display: none;
+}
+
+/* BEST APARTMENTS */
+
+.bg-apartaments {
+    background-image: url('../img/conference-hall.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.apartaments-logo {
+    color: #FCD043;
+    font-family: Miracle;
+    font-size: 16vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding: 70px 10px 0 10px;
+}
+.yellowline {
+    padding: 100px 0 150px 0;
+}
+.yellowline  {
+    width: 100%;
+}
+.bigyellowline {
+    display: none;
+} 
+.apartments-description {
+    color:  #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: auto;
+    width: 205px;
+}
+ /* OUR GALLERY */
+ .gallery {
+    background-color: #313F38;
+    padding-top: 70px;
+ }
+ .label-gallery {
+    text-align: center;
+ }
+ .gallery-logo {
+    color: #FCD043;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 18.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.7vw;
+    text-transform: uppercase;
+    padding-top: 5px;
+ }
+ .gallery-description {
+    color: #FFFCF6;
+    text-align: center;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.1vw;
+    opacity: 0.8;
+    padding: 50px 10px;
+ }
+ .photos {
+    position: relative;
+    height: 450px;
+ }
+.photo1 {
+    background-image: url('../img/gallery5.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    margin-top: -50px;
+}
+.photo2 {
+    background-image: url('../img/about-us1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px; height: 205px;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 1;
+}   
+.photo3 {
+    background-image: url('../img/gallery4.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    margin-right: -10px;
+    margin-top: 130px;
+    opacity: .4;
+}
+
+
+
+.photo5 {
+    background-image: url('../img/gallery6.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 140px;
+    position: absolute;
+    margin-top: -10px;
+    opacity: .4;
+    margin-left: -10px;
+}
+.marks {
+    display: none;
+}
+.caption-gallery {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 4.6vw;
+    font-style: italic;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    padding-bottom: 40px;
+    margin-top: -20px;
+}
+.caption-gallery img {
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
+
+/* GET IN TOUCH */
+.get-in-touch {
+    background-color: #FFFCF6;
+    position: relative;
+}
+.bottom {
+    display: block;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.bottom-address {
+    display: block;
+    width: 172px;
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.getintouch-logo {
+    color:  #1B3B36;
+    font-family: Miracle;
+    font-size: 22vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22vw;
+    text-transform: uppercase;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.touch {
+    display: block;
+    color: #FCD043;
+    text-align: right;
+}
+.star-bottom {
+    height: 40px;
+}
+.gin-image {
+    background-image: url('../img/het-in-touch1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -40px;
+    margin-left: auto;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+.tb-bottom {
+    display: none;
+}
+.gin-container {
+    display: none;
+    
+}
+
+.icon-bottom {
+    margin-right: 0;
+    float: left;
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+}
+.reserved {
+    color: #1B3B36;
+    font-family: HelveticaNeueLTStd;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.8;
+    padding: 30px 0;
+}
+.bigyellowline-bottom {
+    display: none;
+}

@@ -1,0 +1,302 @@
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .name {
+        font-size: 105px;
+    }
+    .textyellow {
+        font-size: 16px;
+    }
+    .description-header {
+        font-size: 20px;
+        line-height: 23px;
+        margin: 0 60px;
+    }
+    .line {
+        margin: 25px 55px;
+    }
+    .caption {
+        font-size: 17px;
+    }
+    /* SECTION ABOUT US */
+    .aboutus-logo {
+        font-size: 90px;
+        line-height: 90px;
+        margin-left: 20px;
+    }
+    .aboutus-photo1 {
+        height: 450px;
+    }
+    .hq {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .aboutus-description {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    /* SECTION ROOMS & APARTMENTS */  
+    .rooms-logo {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .rooms-amount {
+        font-size: 22px;
+    }
+    .roooms-description {
+        font-size: 20px;
+    }
+    .room-image-page1 {
+        height: 450px;
+    }
+    .room-image-page2 {
+        height: 450px;
+    }
+    .room-image-page3 {
+        height: 450px;
+    }
+    .room-image-page4 {
+        height: 450px;
+    }
+    .number-of-page {
+        font-size: 25px;
+    }
+    .name-of-room {
+        font-size: 55px;
+        line-height: 45px;
+    }
+    .room-description {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .button-rooms {
+        width: 100px;
+        height: 100px;
+    }
+    /* OUR FACILITIES */
+    .caption4 {
+        font-size: 25px;
+    }
+    .our-facilities-logo span {
+        font-size: 77px;
+        line-height: 77px;
+    }
+    .our-facilities-logo { 
+        margin-left: 18vw;
+    }
+    .of-image1 {
+        height: 150px;
+        width: 225px;
+        margin: 0 auto;
+    }
+    .of-description {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: right;
+        margin-left: auto;
+        width: 50%;
+    }
+    /* ICE RESTAURANT */
+    .ice-restaurant-image {
+        height: 450px;
+    }
+    .first {
+        font-size: 45px;
+        line-height: 45px;
+        padding-right: 100px;
+    }
+    .icerestaurant-logo {
+        font-size: 45px;
+        line-height: 45px;
+        width: 52.5vw;
+    }
+    .button-down2 img {
+        width: 80px;
+        margin-top: 10px;
+    }
+    .restaurant-description {
+        width: 52.5vw;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .conferencehall-image {
+        height: 180px;
+        width: 180px;
+    }
+    .second {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .conferencehall-logo {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .winebar-logo {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .winebar-image {
+        height: 180px;
+        width: 180px;
+    }
+    /* BEST APARTMENTS */
+    .bg-apartaments {
+        height: 900px;
+    }
+    .apartaments-logo {
+        font-size: 14vw;
+        line-height: 14vw;
+    }
+    .yellowline { 
+        margin-top: -20px;
+        padding-bottom: 40px;
+    }
+    .apartments-description {
+        font-size: 23px;
+        width: 350px;
+    }
+    /* OUR GALLERY */
+    .gallery-logo {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .gallery-description {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .photos {
+        position: relative;
+        height: 550px;
+    }
+    .photo1 {
+        width: 165px;
+        height: 165px;
+        margin-top: -60px;
+    }
+    .photo2 {
+        margin-top: -40px;
+        width: 180px;
+        height: 235px;
+        z-index: 1;
+    }
+    .photo3 {
+        width: 200px;
+        height: 180px;
+        margin-top: 175px;
+    }/*
+    .swiper {
+        margin-top: 100px;
+        width: 250px;
+        height: 320px;
+        z-index: 5;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
+    }*/
+    .photo5 {
+        width: 200px;
+        height: 180px;
+        margin-top: -80px;
+    }
+    .caption-gallery {
+        margin-top: -80px;
+        font-size: 22px;
+        width: 350px;
+    }
+    .caption-gallery img {
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+    }
+
+    /* GET IN TOUCH */
+    .get-in-touch {
+    background-color: #FFFCF6;
+    position: relative;
+    }
+    .bottom {
+        display: block;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-top: 70px;
+    }
+    .bottom-address {
+        display: block;
+        width: 172px;
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-left: auto;
+        padding-top: 50px;
+    }
+    .getintouch-logo {
+        color:  #1B3B36;
+        font-family: Miracle;
+        font-size: 105px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105px;
+        text-transform: uppercase;
+        padding-top: 50px;
+        position: relative;
+        z-index: 2;
+    }
+    .star-bottom {
+        height: 60px;
+    }
+    .touch {
+        display: block;
+        color: #FCD043;
+        text-align: right;
+    }
+    .gin-image {
+        width: 170px;
+        height: 170px;
+        position: relative;
+        margin-top: -40px;
+        margin-left: auto;
+        z-index: 1;
+        margin-bottom: 200px;
+    }
+    .icon-bottom img{
+        width: 160px;
+        height: 160px;
+    }
+    .icon-bottom {
+        margin-right: 0;
+        float: left;
+        position: absolute;
+        bottom: 180px;
+        left: 40px;
+    }
+    .reserved {
+        color: #1B3B36;
+        font-family: HelveticaNeueLTStd;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        opacity: 0.8;
+        padding: 30px 0;
+    }
+}
