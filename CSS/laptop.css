@@ -178,6 +178,24 @@
         position: absolute;
         right: 0; bottom: 20px;
     }
+    .room-image-page2 {
+        width: 335px;
+        height: 450px;
+        position: absolute;
+        right: 0; bottom: 20px;
+    }
+    .room-image-page3 {
+        width: 335px;
+        height: 450px;
+        position: absolute;
+        right: 0; bottom: 20px;
+    }
+    .room-image-page4 {
+        width: 335px;
+        height: 450px;
+        position: absolute;
+        right: 0; bottom: 20px;
+    }
     .wrap {
         margin-top: 80px;
         padding-top: 40px;

@@ -362,7 +362,31 @@
     position: relative;
 }
 .room-image-page1 {
-    background-image: url('../img/rooms-img1.jfif');
+    background-image: url('../img/rooms&apart/rooms-img1.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page2 {
+    background-image: url('../img/rooms&apart/rooms-img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page3 {
+    background-image: url('../img/rooms&apart/rooms-img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    position: relative;
+}
+.room-image-page4 {
+    background-image: url('../img/rooms&apart/rooms-img3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
