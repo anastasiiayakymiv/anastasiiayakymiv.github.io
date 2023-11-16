@@ -1,0 +1,531 @@
+.bg-superior {
+    background-image: url('../img/rooms&apart/rooms-img1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    margin-top: -50px;
+}
+.header {
+    position: relative;
+}
+.header-top {
+    padding: 0 10px;
+}
+.menu-list {
+    margin-top: 10px;
+}
+.logo-superior {
+    color: #FCD043;
+    font-family: Miracle;
+    font-size: 18vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16vw; 
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.pad {
+    padding: 0;
+}
+.stp {
+    bottom: -70px;
+}
+.superiortwin-description {
+    background: #313F38;
+    padding-top: 130px;
+    
+}
+.superior-description {
+    display: none;
+}
+.white {
+    border: 1px solid #FFFCF6;
+    width: 175px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.star {
+    width: 30px;
+    margin-right: 10px;
+}
+.sttext {
+    color: #FFFCF6;
+    font-family: Miracle;
+    font-size: 8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8vw; /* 100% */
+    letter-spacing: 0.9px;
+}
+.sp-description {
+    color: #FFFCF6;
+    font-family: HelveticaNeueLTStd;
+    font-size: 3.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6vw; 
+    width: 80%;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+.premier-standart {
+    color: #FCD043;
+    font-family: HelveticaNeueLTStd;
+    font-size: 5.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.pos {
+    margin-top: -60px;
+}
+.pre-stand-img {
+    background-image: url('../img/best-apartaments.jfif');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    margin-top: -20px;
+}
+.superiortwin {
+    background-color: #FFFCF6;
+    position: relative;
+}
+.page1name {
+    padding-top: 70px;
+}
+.page1desc {
+    padding: 20px 0 50px 0;
+    width: 70%;
+}
+.img-bathroom {
+    background-image: url('../img/gallery5.jfif');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 355px;
+    margin-bottom: 70px;
+}
+.label-rooms {
+    float: right;
+    margin-right: 40px;
+}
+.bookroom-btn {
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #313F38;
+    text-align: center;
+    line-height: 50px;
+    color: #313F38;
+    text-decoration: none;
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .bg-superior {
+        height: 505px;
+    }
+    .logo-superior {
+        font-size: 86px;
+        line-height: 76px; 
+        padding-top: 60px;
+        padding-left: 10px;
+    }
+    .sttext {
+        font-size: 38px;
+        line-height: 38px;
+        width: 70%;
+    }
+    .sp-description {
+        font-size: 18px;
+        font-style: normal;
+        line-height: 28px; 
+    }
+    .premier-standart {
+        font-size: 26px;
+    }
+    .page1desc {
+        width: 80%;
+    }
+    .img-bathroom {
+        background-image: url('../img/gallery5.jfif');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 365px;
+        margin-bottom: 70px;
+    }
+    .label-rooms {
+       margin-right: 50px;
+    }
+    .pre-stand-img {
+        background-image: url('../img/best-apartaments.jfif');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 430px;
+        margin-top: -60px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .bg-superior {
+        height: 550px;
+        margin-top: 0;
+    }
+    .header-top {
+        padding: 0 15px;
+    }
+    .logo-superior {
+        font-size: 100px;
+        line-height: 80px; 
+        padding-left: 50px;
+        width: 415px;
+    }
+    .stp {
+        bottom: 10px;
+        right: 20px;
+    }
+    .superiortwin-description {
+        background: #313F38;
+        padding-top: 200px;  
+        position: relative;
+    }
+    .white {
+        position: absolute;
+        top: 30px;
+    }
+    .sttext {
+        font-size: 40px;
+        line-height: 40px; 
+        width: 607px;
+    }
+    .sp-description {
+        font-size: 13px;
+        line-height: 23px; 
+        width: 357px;
+        margin-right: 80px;
+        margin-left: auto;
+        margin-top: 100px;
+    }
+    .pad {
+        display: block;
+    }
+    .premier-standart {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .pre-stand-img {
+        height: 530px;
+        margin-top: -140px;
+    }
+    .superiortwin {
+        background-color: #FFFCF6;
+        position: relative;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .page1name {
+        position: absolute;
+        bottom: 415px;
+        margin-left: 0;
+    }
+    .page1desc {
+        padding: 20px 0 50px 0;
+        width: 330px;
+        margin-left: auto;
+    }
+    .position {
+        position: absolute;
+        bottom: 250px;
+    }
+    .img-bathroom {
+        height: 435px;
+        width: 330px;
+        margin-left: auto;
+    }
+    .img-bathroom2 {
+        background-image: url('../img/gallery6.jfif');
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 335px;
+        width: 330px;
+        position: absolute;
+        top: 150px;
+        z-index: 2;
+    }
+    .label-rooms {
+        z-index: 1;
+        position: absolute;
+        top: 100px; left: 320px;
+    }
+    .bookroom-btn {
+        margin-left: 0;
+        margin-top: -80px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .bg-superior {
+        height: 600px;
+        margin-top: 0;
+    }
+    .header-top {
+        padding: 0 20px;
+    }
+    .menu-list {
+        margin-top: 0;
+    }
+    .logo-superior {
+        font-size: 100px;
+        line-height: 80px; 
+        padding-left: 20px;
+        width: 415px;
+    }
+    .superior-description {
+        display: block;
+        margin-top: 160px;
+        padding-left: 20px;
+        width: 325px;
+        color: #FCD043;
+        font-family: HelveticaNeueLTStd;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .stp {
+        bottom: 10px;
+        right: 20px;
+    }
+    .superiortwin-description {
+        padding-top: 200px;  
+        position: relative;
+    }
+    .white {
+        position: absolute;
+        top: 30px;
+        margin-left: 140px;
+    }
+    .sttext {
+        font-size: 40px;
+        line-height: 40px; 
+        width: 405px;
+        margin-left: 140px;
+    }
+    .sp-description {
+        font-size: 13px;
+        line-height: 23px; 
+        width: 305px;
+        margin-right: 140px;
+        margin-left: auto;
+        margin-top: -200px;
+    }
+    .pad {
+        display: block;
+    }
+    .premier-standart {
+        font-size: 20px;
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+    .pre-stand-img {
+        height: 500px;
+        margin-top: -190px;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .superiortwin {
+        background-color: #FFFCF6;
+        position: relative;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .page1name {
+        position: absolute;
+        bottom: 405px;
+        margin-left: 0;
+
+    }
+    .page1desc {
+        padding: 20px 0 50px 0;
+        width: 315px;
+        margin-left: auto;
+        font-size: 18px;
+    }
+    .position {
+        position: absolute;
+        bottom: 250px;
+    }
+    .img-bathroom {
+        height: 455px;
+        width: 315px;
+        margin-left: auto;
+    }
+    .img-bathroom2 {
+        background-image: url('../img/gallery6.jfif');
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 340px;
+        width: 315px;
+        position: absolute;
+        top: 150px;
+        z-index: 2;
+    }
+    .label-rooms {
+        z-index: 1;
+        position: absolute;
+        top: 100px; left: 435px;
+    }
+    .bookroom-btn {
+        margin-left: 0;
+        margin-top: -80px;
+    }
+    .container11 {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .none {
+        display: none;
+    }
+}
+@media (min-width: 1201px) {
+    .bg-superior {
+        height: 650px;
+        margin-top: 0;
+    }
+
+    .header-top {
+        padding: 0 20px;
+    }
+    .menu-list {
+        margin-top: 0;
+    }
+    .logo-superior {
+        font-size: 100px;
+        line-height: 80px; 
+        padding-left: 20px;
+        width: 415px;
+    }
+    .superior-description {
+        display: block;
+        margin-top: 160px;
+        padding-left: 20px;
+        width: 325px;
+        color: #FCD043;
+        font-family: HelveticaNeueLTStd;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .stp {
+        bottom: 10px;
+        right: 20px;
+    }
+    .superiortwin-description {
+        padding-top: 200px;  
+        position: relative;
+    }
+    .white {
+        position: absolute;
+        top: 30px;
+        margin-left: 140px;
+    }
+    .sttext {
+        font-size: 40px;
+        line-height: 40px; 
+        width: 405px;
+        margin-left: 140px;
+    }
+    .sp-description {
+        font-size: 18px;
+        line-height: 28px; 
+        width: 315px;
+        margin-right: 140px;
+        margin-left: auto;
+        margin-top: -200px;
+    }
+    .pad {
+        display: block;
+    }
+    .none {
+        display: none;
+    }
+    .premier-standart {
+        font-size: 20px;
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+    .pre-stand-img {
+        height: 550px;
+        margin-top: -260px;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .superiortwin {
+        background-color: #FFFCF6;
+        position: relative;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .page1name {
+        position: absolute;
+        bottom: 405px;
+        margin-left: 0;
+
+    }
+    .page1desc {
+        padding: 20px 0 50px 0;
+        width: 380px;
+        margin-left: auto;
+        font-size: 18px;
+    }
+    .position {
+        position: absolute;
+        bottom: 250px;
+    }
+    .img-bathroom {
+        height: 480px;
+        width: 380px;
+        margin-left: auto;
+    }
+    .img-bathroom2 {
+        background-image: url('../img/gallery6.jfif');
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 355px;
+        width: 360px;
+        position: absolute;
+        top: 150px;
+        z-index: 2;
+    }
+    .label-rooms {
+        z-index: 1;
+        position: absolute;
+        top: 100px; left: 485px;
+    }
+    .bookroom-btn {
+        margin-left: 0;
+        margin-top: -80px;
+    }
+    .container11 {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
