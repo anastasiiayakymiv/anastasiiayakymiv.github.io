@@ -1,10 +1,21 @@
-.bg-superior {
-    background-image: url('../img/rooms&apart/rooms-img1.jfif');
+.bg-top-rooms {  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 470px;
     margin-top: -50px;
+}
+.bg-page1 {
+    background-image: url('../img/rooms&apart/page1/rooms-img1.jfif');
+}
+.bg-page2 {
+    background-image: url('../img/rooms&apart/page2/rooms2-1.avif');
+}
+.bg-page3 {
+    background-image: url('../img/rooms&apart/page3/rooms3-1.avif');
+}
+.bg-page4 {
+    background-image: url('../img/rooms&apart/page4/rooms4-1.avif');
 }
 .header {
     position: relative;
@@ -86,12 +97,23 @@
     margin-top: -60px;
 }
 .pre-stand-img {
-    background-image: url('../img/best-apartaments.jfif');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     height: 430px;
     margin-top: -20px;
+}
+.psi-page1 {
+    background-image: url('../img/best-apartaments.jfif');
+}
+.psi-page2 {
+    background-image: url('../img/rooms&apart/page2/rooms2-4.avif');
+}
+.psi-page3 {
+    background-image: url('../img/rooms&apart/page3/rooms3-2.avif');
+}
+.psi-page4 {
+    background-image: url('../img/rooms&apart/page4/rooms4-5.avif');
 }
 .superiortwin {
     background-color: #FFFCF6;
@@ -105,12 +127,23 @@
     width: 70%;
 }
 .img-bathroom {
-    background-image: url('../img/gallery5.jfif');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     height: 355px;
     margin-bottom: 70px;
+}
+.bath-page1 {
+    background-image: url('../img/gallery5.jfif');
+}
+.bath-page2 {
+    background-image: url('../img/rooms&apart/page2/rooms2-2.avif');
+}
+.bath-page3 {
+    background-image: url('../img/rooms&apart/page3/rooms3-3.avif');
+}
+.bath-page4 {
+    background-image: url('../img/rooms&apart/page4/rooms4-3.avif');
 }
 .label-rooms {
     float: right;
@@ -134,7 +167,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .bg-superior {
+    .bg-top-rooms {
+        height: 505px;
+    }
+    .bg-superior1 {
         height: 505px;
     }
     .logo-superior {
@@ -160,10 +196,6 @@
         width: 80%;
     }
     .img-bathroom {
-        background-image: url('../img/gallery5.jfif');
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 365px;
         margin-bottom: 70px;
     }
@@ -171,16 +203,16 @@
        margin-right: 50px;
     }
     .pre-stand-img {
-        background-image: url('../img/best-apartaments.jfif');
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 430px;
         margin-top: -60px;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-    .bg-superior {
+    .bg-top-rooms {
+        height: 550px;
+        margin-top: 0;
+    }
+    .bg-superior1 {
         height: 550px;
         margin-top: 0;
     }
@@ -256,7 +288,6 @@
         margin-left: auto;
     }
     .img-bathroom2 {
-        background-image: url('../img/gallery6.jfif');
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -265,6 +296,18 @@
         position: absolute;
         top: 150px;
         z-index: 2;
+    }
+    .bath2-page1 {
+        background-image: url('../img/gallery6.jfif');
+    }
+    .bath2-page2 {
+        background-image: url('../img/rooms&apart/page2/rooms2-5.avif');
+    }
+    .bath2-page3 {
+        background-image: url('../img/rooms&apart/page3/rooms3-4.avif');
+    }
+    .bath2-page4 {
+        background-image: url('../img/rooms&apart/page4/rooms4-4.avif');
     }
     .label-rooms {
         z-index: 1;
@@ -277,7 +320,11 @@
     }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
-    .bg-superior {
+    .bg-top-rooms {
+        height: 600px;
+        margin-top: 0;
+    }
+    .bg-superior1 {
         height: 600px;
         margin-top: 0;
     }
@@ -375,7 +422,6 @@
         margin-left: auto;
     }
     .img-bathroom2 {
-        background-image: url('../img/gallery6.jfif');
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -384,6 +430,18 @@
         position: absolute;
         top: 150px;
         z-index: 2;
+    }
+    .bath2-page1 {
+        background-image: url('../img/gallery6.jfif');
+    }
+    .bath2-page2 {
+        background-image: url('../img/rooms&apart/page2/rooms2-5.avif');
+    }
+    .bath2-page3 {
+        background-image: url('../img/rooms&apart/page3/rooms3-4.avif');
+    }
+    .bath2-page4 {
+        background-image: url('../img/rooms&apart/page4/rooms4-4.avif');
     }
     .label-rooms {
         z-index: 1;
@@ -403,11 +461,14 @@
     }
 }
 @media (min-width: 1201px) {
-    .bg-superior {
+    .bg-top-rooms {
         height: 650px;
         margin-top: 0;
     }
-
+    .bg-superior1 {
+        height: 650px;
+        margin-top: 0;
+    }
     .header-top {
         padding: 0 20px;
     }
@@ -505,7 +566,6 @@
         margin-left: auto;
     }
     .img-bathroom2 {
-        background-image: url('../img/gallery6.jfif');
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -514,6 +574,18 @@
         position: absolute;
         top: 150px;
         z-index: 2;
+    }
+    .bath2-page1 {
+        background-image: url('../img/gallery6.jfif');
+    }
+    .bath2-page2 {
+        background-image: url('../img/rooms&apart/page2/rooms2-5.avif');
+    }
+    .bath2-page3 {
+        background-image: url('../img/rooms&apart/page3/rooms3-4.avif');
+    }
+    .bath2-page4 {
+        background-image: url('../img/rooms&apart/page4/rooms4-4.avif');
     }
     .label-rooms {
         z-index: 1;

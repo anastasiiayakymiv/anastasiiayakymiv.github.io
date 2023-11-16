@@ -298,7 +298,7 @@
         margin-right: 10px;
     }
     .room-image2-page1 {
-        background-image: url('../img/rooms&apart/rooms-img2.jfif');
+        background-image: url('../img/rooms&apart/page1/rooms-img2.jfif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -307,7 +307,7 @@
         display: block;
     }
     .room-image2-page2 {
-        background-image: url('../img/rooms&apart/rooms-img7.jpg');
+        background-image: url('../img/rooms&apart/page2/rooms2-4.avif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -316,7 +316,7 @@
         display: block;
     }
     .room-image2-page3 {
-        background-image: url('../img/rooms&apart/rooms-img3.jpg');
+        background-image: url('../img/rooms&apart/page3/rooms3-2.avif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -325,7 +325,7 @@
         display: block;
     }
     .room-image2-page4 {
-        background-image: url('../img/rooms&apart/rooms-img5.jpg');
+        background-image: url('../img/rooms&apart/page4/rooms4-1.avif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
