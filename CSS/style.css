@@ -438,6 +438,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 /* OUR FACILITIES */
 .our-facilities {
     background-color: #FFFCF6;
@@ -685,7 +686,7 @@
  }
  .photos {
     position: relative;
-    height: 450px;
+    height: 550px;
  }
 .photo1 {
     background-image: url('../img/gallery5.jfif');
@@ -697,7 +698,6 @@
     position: absolute;
     right: 0;
     z-index: 1;
-    margin-top: -50px;
 }
 .photo2 {
     background-image: url('../img/about-us1.jfif');
@@ -706,7 +706,7 @@
     background-size: cover;
     width: 150px; height: 205px;
     position: absolute;
-    margin-top: -40px;
+    top: 60px;
     z-index: 1;
 }   
 .photo3 {
@@ -714,17 +714,26 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 180px;
     position: absolute;
     right: 0;
     margin-right: -10px;
-    margin-top: 130px;
+    top: 90px;
     opacity: .4;
 }
-
-
-
+.photo4 {
+    background-image: url('../img/header.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 240px;
+    position: relative;
+    top: 170px;
+    z-index: 2;
+    margin: auto;
+}
 .photo5 {
     background-image: url('../img/gallery6.jfif');
     background-position: center;
@@ -733,8 +742,8 @@
     width: 160px;
     height: 140px;
     position: absolute;
-    margin-top: -10px;
-    opacity: .4;
+    bottom: 70px;
+    opacity: .3;
     margin-left: -10px;
 }
 .marks {
@@ -757,7 +766,28 @@
     height: 36px;
     margin-right: 15px;
 }
-
+#galleryswiper.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    width: 600px;
+    display: none;
+}
+#galleryswiper  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#galleryswiper .swiper-button-next,
+#galleryswiper .swiper-button-prev {
+    color: #1B3B36;
+}
+#galleryswiper .swiper-slide img {
+    display: block;
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+}
 /* GET IN TOUCH */
 .get-in-touch {
     background-color: #FFFCF6;

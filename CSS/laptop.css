@@ -413,13 +413,13 @@
     }
     .photos {
         position: relative;
-        height: 570px;
+        height: 600px;
     }
     .photo1 {
         background-image: url('../img/gallery4.jfif');
         background-position: center;
-        width: 145px;
-        height: 145px;
+        width: 165px;
+        height: 165px;
         right: 0;
         margin-top: -170px;
         margin-right: -15px;
@@ -428,7 +428,7 @@
     .photo2 {
         background-image: url('../img/gallery2.jfif');
         background-position: top;
-        width: 145px;
+        width: 165px;
         height: 195px;
         position: absolute;
         margin-top: -170px;
@@ -444,46 +444,39 @@
         position: absolute;
         right: 0;
         margin-right: 0px;
-        margin-top: 350px;
+        top: 350px;
         opacity: 1;
-    }/*
-    .swiper {
-        width: 480px;
-        height: 315px;
     }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .swiper-slide img {
+    .photo4 {
+        display: none;
+    } 
+    #galleryswiper.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+        width: 400px;
         display: block;
-        width: 480px;
-        height: 315px;
+    }
+    #galleryswiper .swiper-slide img {
+        display: block;
+        width: 400px;
+        height: 300px;
         object-fit: cover;
-    }*/
+    }
     .photo5 {
         background-image: url('../img/gallery3.jfif');
         background-position: center;
-        width: 125px;
-        height: 175px;
+        width: 160px;
+        height: 180px;
         position: absolute;
         margin-top: -100px;
         opacity: 1;
         margin-left: 0px;
     }
-
-
     .caption-gallery {
         font-size: 16px;
         width: 350px;
         display: flex;
         padding-bottom: 40px;
         position: absolute;
-        bottom: 100px; left: 25vw;
+        bottom: 200px; left: 30vw;
     }
 
     .caption-gallery img {

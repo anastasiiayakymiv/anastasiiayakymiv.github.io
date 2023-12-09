@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/69061d5a94.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/tablet.css">
     <link rel="stylesheet" href="./CSS/laptop.css">
@@ -125,7 +126,7 @@
           <div class="rooms-description">All room decoration was made with ecological 
             certified and safe materials.</div>
         </div>
-        <div class="swiper mySwiper">
+        <div class="swiper" id="mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><div class="wrap">
               <div class="room-image-page1">
@@ -207,7 +208,7 @@
               </div>
             </div></div>
           </div>
-          <div class="swiper-scrollbar "></div>
+          <div class="swiper-scrollbar"></div>
         </div> 
       </div>
     </section>
@@ -311,8 +312,8 @@
           <div class="photo1"></div>
           <div class="photo2"></div>
           <div class="photo3"></div>
-       <!--
-          <div class="swiper mySwiper">
+          <div class="photo4"></div>
+          <div class="swiper" id="galleryswiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img src="img/header.jfif" alt="" />
@@ -333,7 +334,7 @@
                 <img src="img/gallery2.jfif" alt="" />
               </div>
               <div class="swiper-slide">
-                <img src="img/rooms-img1.jfif" alt="" />
+                <img src="img/rooms&apart/page1/rooms-img1.jfif" alt="" />
               </div>
               <div class="swiper-slide">
                 <img src="img/conference-hall.jfif" alt="" />
@@ -341,9 +342,11 @@
               <div class="swiper-slide">
                 <img src="img/het-in-touch1.jfif" alt="" />
               </div>
+              
             </div>
+            <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
           </div>
--->
           <div class="photo5"></div>
         </div>
         <div class="caption-gallery">
@@ -351,8 +354,8 @@
           <p>It is our pleasure to meet your most unrealistic expectations.</p>
         </div>
         <div class="marks">
-          Bank hotel <span class="bankhotel">Bank__hotel©</span> Bank hotel Bank
-          hotel Bank hotel Bank
+          <h3>Bank hotel <span class="bankhotel">Bank__hotel©</span> Bank hotel Bank
+          hotel Bank hotel Bank hotel Bank hotel Bank</h3>
         </div>
       </div>
     </section>
@@ -421,16 +424,7 @@
     </section>
     <script src="scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-   <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-    });
-            </script>
+   <script src="scripts/swiper.js"></script>
     <script src="scripts/navbar.js"></script>
   </body>
 </html>

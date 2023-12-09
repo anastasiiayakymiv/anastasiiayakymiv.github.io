@@ -548,10 +548,12 @@
         position: absolute;
         right: 0;
         margin-right: 0px;
-        margin-top: 450px;
+        top: 480px;
         opacity: 1;
     }
-
+    .photo4 {
+        display: none;
+    }
     .photo5 {
         background-image: url('../img/gallery3.jfif');
         background-position: center;
@@ -562,19 +564,32 @@
         opacity: 1;
         margin-left: 0px;
     }
-
-    .marks {
-        padding-top: 150px;
+    #galleryswiper.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+        width: 650px;
         display: block;
+    }
+    #galleryswiper .swiper-slide img {
+        display: block;
+        width: 650px;
+        height: 450px;
+        object-fit: cover;
+    }
+    .marks h3{
+        padding-top: 160px;
         color: rgba(255, 252, 246, 0.12);
         font-family: Miracle;
         font-size: 6.9vw;
         font-style: normal;
         font-weight: 400;
-        line-height: 80px;
+        line-height: 100px;
         margin: 0 -20px;
-        padding-bottom: 150px;
-        /* 120% */
+        padding-bottom: 100px;
+        width: 145%;
+    }
+    .marks {
+        display: block;
+        width: 100%;
+        overflow: hidden;
     }
 
     .bankhotel {
@@ -588,7 +603,7 @@
         padding-bottom: 40px;
         position: relative;
         left: 400px;
-        margin-top: -150px;
+        margin-top: -165px;
     }
 
     .caption-gallery img {

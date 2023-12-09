@@ -165,48 +165,33 @@
     }
     .photos {
         position: relative;
-        height: 550px;
+        height: 700px;
     }
     .photo1 {
-        width: 165px;
-        height: 165px;
-        margin-top: -60px;
+        width: 185px;
+        height: 185px;
+        top: 0;
     }
     .photo2 {
-        margin-top: -40px;
-        width: 180px;
-        height: 235px;
+        top: 15px;
+        width: 200px;
+        height: 260px;
         z-index: 1;
     }
     .photo3 {
-        width: 200px;
-        height: 180px;
-        margin-top: 175px;
-    }/*
-    .swiper {
-        margin-top: 100px;
-        width: 250px;
-        height: 320px;
-        z-index: 5;
+        width: 220px;
+        height: 220px;
+        top: 140px;
     }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .swiper-slide img {
-        display: block;
-        width: 250px;
+    .photo4 {
+        width: 345px;
         height: 320px;
-        object-fit: cover;
-    }*/
+        top: 170px;
+    }
     .photo5 {
-        width: 200px;
-        height: 180px;
-        margin-top: -80px;
+        width: 230px;
+        height: 200px;
+        bottom: 135px;
     }
     .caption-gallery {
         margin-top: -80px;
