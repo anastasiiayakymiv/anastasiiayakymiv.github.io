@@ -588,6 +588,8 @@
     line-height: 6.2vw;
     text-transform: capitalize;
     padding: 40px 0;
+    display: block;
+    text-decoration: none;
 }
 .winebar-logo {
     color: #1B3B36;
@@ -599,6 +601,8 @@
     line-height: 6.2vw;
     text-transform: capitalize;
     padding: 40px 0 70px 0;
+    display: block;
+    text-decoration: none;
 }
 .winebar-image {
     background-image: url('../img/wine-bar.jfif');
