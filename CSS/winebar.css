@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-color: #313F38;
     position: relative;
+    padding-bottom: 50px;
 }
 .maintext-winebar {
     color: #FCD043;
@@ -72,7 +73,7 @@
     font-size: 3.4vw;
     font-weight: 400;
     line-height: 6.1vw; 
-    margin-bottom: 65px;
+    padding-bottom: 65px;
     width: 300px;
     opacity: 0.8;
 }
@@ -107,7 +108,289 @@
     margin-left: 0;
     padding: 30px 0;
 }
-.color-change {
+#winebar-contacts.get-in-touch {
     background-color: #313F38;
+}
+.color-change {
     color: #FFFCF6;
+}
+.social-links a,
+.find {
+    color: #FFFCF6;
+}
+.inputemail {
+    background-color: #313F38;
+    border: 1px solid #FFFCF6;
+    color: #FFFCF6;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .maintext-winebar {
+        font-size: 76px;
+        line-height: 76px; 
+        padding-top: 70px;
+    }
+    .bg-restaurant span {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .description-winebar {
+        font-size: 16px;
+        line-height: 30px; 
+        width: 375px;
+    }
+    .sr-box-image2 {
+        height: 455px;
+    }
+    .sr-bigtext {
+        font-size: 40px;
+    }
+    .sr-description {
+        font-size: 16px;
+        line-height: 28px; 
+        width: 380px;
+    }
+    .text-change1 {
+        margin-left: 135px;
+    }
+    .text-change2 {
+        width: 370px;
+    }
+    .text-change3 {
+        width: 240px;
+    }
+    .sr-box-image3 {
+        height: 300px;
+        margin-right: 105px;
+    }
+    .sr-box-image4 {
+        height: 280px; width: 200px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .maintext-winebar {
+        font-size: 100px;
+        line-height: 80px; 
+        padding-top: 70px;
+    }
+    .bg-restaurant span {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .description-winebar {
+        font-size: 16px;
+        line-height: 30px; 
+        width: 300px;
+        margin-right: 115px;
+    }
+    .sr-box-image1 {
+        background-image: url('../img/safe-restaurant3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px; width: 600px;
+    }
+    .wrap-img-restaurant {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sr-box-image2 {
+        height: 400px;
+        width: 350px;
+    }
+    .sr-bigtext {
+        font-size: 40px;
+    }
+    .sr-description {
+        font-size: 16px;
+        line-height: 28px; 
+        width: 380px;
+    }
+    .text-change1 {
+        width: 300px;
+        margin-left: auto;
+    }
+    .text-change2 {
+        width: 370px;
+    }
+    .text-change3 {
+        width: 240px;
+    }
+    .sr-box-image3 {
+        margin-right: 0;
+        width: 510px;
+        margin-left: auto;
+    }
+    .sr-box-image4 {
+        height: 280px; width: 220px;
+    }
+    .wrap12 {
+        position: absolute;
+        bottom: 490px;
+    }
+    .text-change4 {
+        width: 230px;
+        margin-top: 10px;
+    }
+    .whiteline-style {
+        position: absolute;
+        bottom: 60px;
+        margin: 0 -15px;
+        width: 100%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .maintext-winebar {
+        font-size: 110px;
+        line-height: 90px; 
+        padding-top: 70px;
+    }
+    .bg-restaurant span {
+        font-size: 40px;
+        line-height: 28px;
+    }
+    .description-winebar {
+        font-size: 16px;
+        line-height: 30px; 
+        width: 300px;
+        margin-right: 115px;
+    }
+    .label-pos-rest {
+        right: 400px;
+        margin-top: 35px;
+        transform: rotate(337deg);
+    }
+    .sr-box-image1 {
+        background-image: url('../img/safe-restaurant3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 530px; width: 620px;
+    }
+    .wrap-img-restaurant {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sr-box-image2 {
+        height: 490px;
+        width: 370px;
+    }
+    .sr-bigtext {
+        font-size: 40px;
+    }
+    .sr-description {
+        font-size: 16px;
+        line-height: 28px; 
+        width: 380px;
+    }
+    .text-change1 {
+        width: 300px;
+        margin-left: auto;
+    }
+    .text-change2 {
+        width: 370px;
+    }
+    .text-change3 {
+        width: 240px;
+    }
+    .sr-box-image3 {
+        margin-right: 0;
+        width: 650px;
+        height: 340px;
+        margin-left: auto;
+    }
+    .sr-box-image4 {
+        height: 300px; width: 240px;
+    }
+    .wrap12 {
+        position: absolute;
+        bottom: 520px;
+    }
+    .text-change4 {
+        width: 230px;
+        margin-top: 10px;
+    }
+    .whiteline-style {
+        position: absolute;
+        bottom: 60px;
+        margin: 0 -15px;
+        width: 100%;
+    }
+}
+@media (min-width: 1201px) {
+    .maintext-winebar {
+        font-size: 125px;
+        line-height: 105px; 
+        padding-top: 70px;
+    }
+    .bg-restaurant span {
+        font-size: 50px;
+    }
+    .description-winebar {
+        font-size: 18px;
+        line-height: 30px; 
+        width: 325px;
+        margin-right: 115px;
+    }
+    .label-pos-rest {
+        right: 435px;
+        margin-top: 105px;
+        transform: rotate(337deg);
+    }
+    .sr-box-image1 {
+        background-image: url('../img/safe-restaurant3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 630px; width: 850px;
+    }
+    .wrap-img-restaurant {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sr-box-image2 {
+        height: 540px;
+        width: 390px;
+    }
+    .sr-bigtext {
+        font-size: 40px;
+    }
+    .sr-description {
+        font-size: 18px;
+        line-height: 28px; 
+        width: 380px;
+    }
+    .text-change1 {
+        width: 300px;
+        margin-left: auto;
+    }
+    .text-change2 {
+        width: 370px;
+    }
+    .text-change3 {
+        width: 240px;
+    }
+    .sr-box-image3 {
+        margin-right: 0;
+        width: 750px;
+        height: 440px;
+        margin-left: auto;
+    }
+    .sr-box-image4 {
+        height: 400px; width: 340px;
+    }
+    .wrap12 {
+        position: absolute;
+        bottom: 520px;
+    }
+    .text-change4 {
+        width: 230px;
+        margin-top: 100px;
+    }
+    .whiteline-style {
+        position: absolute;
+        bottom: 60px;
+        margin: 0 -15px;
+        width: 100%;
+    }
 }
