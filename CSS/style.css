@@ -886,3 +886,50 @@
 .bigyellowline-bottom {
     display: none;
 }
+
+.error-message {
+    background-color: #FFFCF6;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error-message h2 {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px; 
+    text-transform: uppercase;
+}
+.error-message h3 {
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.error-message p {
+    color: #1B3B36;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; 
+    width: 225px;
+    padding-top: 20px;
+}
+.error-message a {
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+    background-color: #1B3B36;
+    color: #FFFCF6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
