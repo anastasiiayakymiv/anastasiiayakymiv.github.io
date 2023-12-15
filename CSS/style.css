@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Outfit&family=Raleway&family=Roboto:wght@100;400&family=Work+Sans:wght@300&display=swap');
 @font-face {
     font-family: Miracle;
     src: url('../fonts/Miracle.otf');
 }
-@font-face {
-    font-family: HelveticaNeueLTSTD;
-    src: url('../fonts/HelveticaNeueLTStd.otf');
-}
+
+ 
 * {
     margin: 0;
     padding: 0;
@@ -43,12 +42,12 @@
     text-align: center;
 }
 .menu-list li {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .menu-list a {
     font-size: 30px;
     line-height: 30px;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFCF6;  
@@ -59,10 +58,11 @@
 }
 .number {
     display: none;
+    font-family: 'Roboto', sans-serif;
 }
 .logo {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -96,7 +96,7 @@
     height: 65px;
     border-radius: 45px;
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 65px;
@@ -115,7 +115,7 @@
 
 .textyellow {
     color: #FCD043;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.2vw;
     text-align: center;
     font-style: normal;
@@ -127,7 +127,7 @@
 .description-header {
     color: #FFFCF6;
     text-align: center;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4.5vw;
     font-style: normal;
     font-weight: 200;
@@ -151,8 +151,6 @@
 
 .header-image-dropdowns {
     display: flex;
-    
-    
 }
 
 .header-wrap {
@@ -163,24 +161,30 @@
 .dropdown {
     width: 350px;
     height: 125px;
-    font-family: HelveticaNeueLTStd;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
-    opacity: 0.9;
+    opacity: 0.8;
     background: rgba(49, 63, 56, 0.48);
     color: #FFFCF6;
     padding-left: 30px;
+    padding-right: 20px;
 }
+.dropdown::placeholder {
+    color: #FFFCF6;
+    opacity: 0.8;
+}
+
 .btn {
     background-color: #FCD043;
     width: 300px;
     height: 125px;
     color: #1B3B36;
     text-align: center;
-    font-family: Helvetica Neue LT Std;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -201,19 +205,19 @@
     margin-bottom: 10px;
     position: absolute;
     bottom: 0; right: 0;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 14px;
-    font-style: italic;
     font-weight: 400;
     line-height: normal;
     padding-top: 50px;
     text-decoration: none;
     color: #313F38;
+    font-style: italic;
 }
 .number-a {
     color: #FCD043;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
@@ -224,7 +228,7 @@
 }
 .address {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
@@ -236,7 +240,7 @@
 }
 .caption {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.7vw;
     font-style: normal;
     font-weight: 400;
@@ -276,7 +280,7 @@
 }
 .aboutus-logo {
     color: #FCD043;
-    text-align: right;
+    text-align: left;
     font-family: Miracle;
     font-size: 18.7vw;
     font-style: normal;
@@ -308,10 +312,10 @@
 } 
 .aboutus-description {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 9.3vw;
     width: 90%;
     opacity: 0.8;
@@ -332,15 +336,15 @@
 .rooms-logo {
     color: #1B3B36;
     font-family: Miracle;
-    font-size: 16vw;
+    font-size: 12vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 16vw; /* 100% */
+    line-height: 12vw; 
     text-transform: uppercase;
 }
 .rooms-amount {
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4.3vw;
     font-style: normal;
     font-weight: 400;
@@ -352,7 +356,7 @@
 .rooms-description {
     width: 50%;
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.2vw;
     font-style: normal;
     font-weight: 400;
@@ -370,7 +374,7 @@
     position: relative;
 }
 .room-image-page2 {
-    background-image: url('../img/rooms&apart/page2/rooms2-1.avif');
+    background-image: url('../img/rooms&apart/page2/rooms2-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -378,15 +382,15 @@
     position: relative;
 }
 .room-image-page3 {
-    background-image: url('../img/rooms&apart/page3/rooms3-1.avif');
+    background-image: url('../img/rooms&apart/page3/rooms3-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 425px;
     position: relative;
 }
 .room-image-page4 {
-    background-image: url('../img/rooms&apart/page4/rooms4-2.avif');
+    background-image: url('../img/rooms&apart/page4/rooms4-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -395,7 +399,7 @@
 }
 .number-of-page {
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4.2vw;
     font-style: normal;
     font-weight: 400;
@@ -407,7 +411,7 @@
     color: rgba(27, 59, 54, 0.32);
 }
 .name-of-room {
-    color: var(--Text, #1B3B36);
+    color: #1B3B36;
     font-family: Miracle;
     font-size: 8vw;
     font-style: normal;
@@ -417,7 +421,7 @@
 }
 .room-description {
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.4vw;
     font-style: normal;
     font-weight: 400;
@@ -447,7 +451,7 @@
 .caption4 {
     color: #1B3B36;
     text-align: right;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 5vw;
     font-style: normal;
     font-weight: 400;
@@ -470,7 +474,7 @@
     margin-bottom: 45px;
 }
 .star-icon {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-left: 30px;
 }
 .of-image1 {
@@ -484,7 +488,7 @@
 }
 .of-description {
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4vw;
     font-style: normal;
     font-weight: 400;
@@ -545,7 +549,7 @@
 .restaurant-description {
     width: 52.5vw;
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4vw;
     font-style: normal;
     font-weight: 400;
@@ -630,10 +634,10 @@
 .apartaments-logo {
     color: #FCD043;
     font-family: Miracle;
-    font-size: 16vw;
+    font-size: 12vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 16vw;
+    line-height: 12vw;
     text-transform: uppercase;
     padding-top: 70px;
     padding: 70px 10px 0 10px;
@@ -649,10 +653,10 @@
 } 
 .apartments-description {
     color:  #FCD043;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
     margin-left: auto;
@@ -680,7 +684,7 @@
  .gallery-description {
     color: #FFFCF6;
     text-align: center;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4vw;
     font-style: normal;
     font-weight: 400;
@@ -755,7 +759,7 @@
 }
 .caption-gallery {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 4.6vw;
     font-style: italic;
     font-weight: 200;
@@ -800,7 +804,7 @@
 .bottom {
     display: block;
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -812,7 +816,7 @@
     display: block;
     width: 172px;
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -824,10 +828,10 @@
 .getintouch-logo {
     color:  #1B3B36;
     font-family: Miracle;
-    font-size: 22vw;
+    font-size: 18vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22vw;
+    line-height: 20vw;
     text-transform: uppercase;
     padding-top: 50px;
     position: relative;
@@ -840,6 +844,7 @@
 }
 .star-bottom {
     height: 40px;
+    margin-bottom: 10px;
 }
 .gin-image {
     background-image: url('../img/het-in-touch1.jfif');
@@ -858,10 +863,8 @@
     display: none;
 }
 .gin-container {
-    display: none;
-    
+    display: none;   
 }
-
 .icon-bottom {
     margin-right: 0;
     float: left;
@@ -871,7 +874,7 @@
 }
 .reserved {
     color: #1B3B36;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

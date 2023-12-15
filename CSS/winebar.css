@@ -2,10 +2,6 @@
     font-family: Miracle;
     src: url('../fonts/Miracle.otf');
 }
-@font-face {
-    font-family: HelveticaNeueLTSTD;
-    src: url('../fonts/HelveticaNeueLTStd.otf');
-}
 .bg-restaurant {
     background-image: url('../img/lines.svg');
     background-size: 100%;
@@ -35,7 +31,7 @@
 }
 .description-winebar {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.4vw;
     font-weight: 400;
     line-height: 6.1vw; 
@@ -69,7 +65,7 @@
 }
 .sr-description {
     color: #FFFCF6;
-    font-family: HelveticaNeueLTStd;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.4vw;
     font-weight: 400;
     line-height: 6.1vw; 
@@ -123,6 +119,19 @@
     border: 1px solid #FFFCF6;
     color: #FFFCF6;
 }
+.whiteline-style {
+    display: none;
+}
+.ddfd-color {
+    background-color: #313F38;
+    color: #FFFCF6;
+    border: 1px solid #FFFCF6;
+}
+.dropdown::placeholder {
+    color: #FFFCF6;
+    background-color: #313F38;
+    opacity: 0.8;
+}
 
 @media (min-width: 481px) and (max-width: 768px) {
     .maintext-winebar {
@@ -166,8 +175,14 @@
     .sr-box-image4 {
         height: 280px; width: 200px;
     }
+    .label-pos-rest {
+        right: 10px;
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+    .bg-restaurant {
+        background-image: url('../img/bg-restaurant.png'); 
+    }
     .maintext-winebar {
         font-size: 100px;
         line-height: 80px; 
@@ -233,13 +248,23 @@
         margin-top: 10px;
     }
     .whiteline-style {
+        display: block;
         position: absolute;
         bottom: 60px;
         margin: 0 -15px;
         width: 100%;
     }
+    .label-pos-rest {
+        right: 10px;
+    }
+    .label-pos-rest {
+        right: 200px;
+    }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
+    .bg-restaurant {
+        background-image: url('../img/bg-restaurant.png'); 
+    }
     .maintext-winebar {
         font-size: 110px;
         line-height: 90px; 
@@ -304,20 +329,24 @@
     }
     .wrap12 {
         position: absolute;
-        bottom: 520px;
+        bottom: 510px;
     }
     .text-change4 {
         width: 230px;
         margin-top: 10px;
     }
     .whiteline-style {
+        display: block;
         position: absolute;
         bottom: 60px;
-        margin: 0 -15px;
+        margin: 0 -20px;
         width: 100%;
     }
 }
 @media (min-width: 1201px) {
+    .bg-restaurant {
+        background-image: url('../img/bg-restaurant.png'); 
+    }
     .maintext-winebar {
         font-size: 125px;
         line-height: 105px; 
@@ -381,16 +410,17 @@
     }
     .wrap12 {
         position: absolute;
-        bottom: 520px;
+        bottom: 538px;
     }
     .text-change4 {
         width: 230px;
         margin-top: 100px;
     }
     .whiteline-style {
+        display: block;
         position: absolute;
         bottom: 60px;
-        margin: 0 -15px;
+        margin: 0 -20px;
         width: 100%;
     }
 }

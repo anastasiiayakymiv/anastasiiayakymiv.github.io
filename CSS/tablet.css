@@ -36,14 +36,15 @@
     }
     /* SECTION ROOMS & APARTMENTS */  
     .rooms-logo {
-        font-size: 80px;
-        line-height: 90px;
+        font-size: 60px;
+        line-height: 80px;
     }
     .rooms-amount {
         font-size: 22px;
     }
     .roooms-description {
         font-size: 20px;
+        width: 62%;
     }
     .room-image-page1 {
         height: 450px;
@@ -143,8 +144,8 @@
         height: 900px;
     }
     .apartaments-logo {
-        font-size: 14vw;
-        line-height: 14vw;
+        font-size: 12vw;
+        line-height: 12vw;
     }
     .yellowline { 
         margin-top: -20px;
@@ -153,6 +154,8 @@
     .apartments-description {
         font-size: 23px;
         width: 350px;
+        text-align: right;
+        margin-right: 10px;
     }
     /* OUR GALLERY */
     .gallery-logo {
@@ -196,7 +199,7 @@
     .caption-gallery {
         margin-top: -80px;
         font-size: 22px;
-        width: 350px;
+        width: 370px;
     }
     .caption-gallery img {
         width: 36px;
@@ -236,17 +239,17 @@
     .getintouch-logo {
         color:  #1B3B36;
         font-family: Miracle;
-        font-size: 105px;
+        font-size: 95px;
         font-style: normal;
         font-weight: 400;
-        line-height: 105px;
+        line-height: 100px;
         text-transform: uppercase;
         padding-top: 50px;
         position: relative;
         z-index: 2;
     }
     .star-bottom {
-        height: 60px;
+        height: 45px;
     }
     .touch {
         display: block;
@@ -274,8 +277,6 @@
         left: 40px;
     }
     .reserved {
-        color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

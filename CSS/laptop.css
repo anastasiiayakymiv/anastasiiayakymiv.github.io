@@ -23,10 +23,9 @@
     }
     .description-header {
         font-size: 13px;
-        width: 350px;
         text-align: right;
         margin-right: 0;
-        width: 260px;
+        width: 265px;
     }
     .line {
         display: none;
@@ -43,7 +42,6 @@
    .dropdown {
        width: 200px;
        height: 95px;
-       font-family: HelveticaNeueLTStd;
        font-size: 14px;
        font-style: normal;
        font-weight: 500;
@@ -60,7 +58,6 @@
        height: 95px;
        color: #1B3B36;
        text-align: center;
-       font-family: Helvetica Neue LT Std;
        font-size: 14px;
        font-style: normal;
        font-weight: 500;
@@ -98,7 +95,7 @@
     .aboutus-logo {
         font-size: 90px;
         line-height: 70px;
-        text-align: right;
+        text-align: left;
         display: inline-block;
         margin-top: 150px;
         position: relative;
@@ -165,11 +162,13 @@
     .rooms-top {
         display: flex;
         justify-content: space-between;
-        margin: 40px 0;
+        margin: 80px 0 40px;
     }
     .rooms-description {
         font-size: 16px;
-        width: 310px;
+        width: 235px;
+        position: absolute;
+        right: 0;
         padding: 0;
     }
     .room-image-page1 {
@@ -209,7 +208,7 @@
     .room-description {
         font-size: 16px;
         line-height: 26px;
-        width: 250px;
+        width: 260px;
     }
     .container {
         justify-content: unset;
@@ -314,10 +313,12 @@
     .conferencehall {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .winebar {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .conferencehall-image {
@@ -330,19 +331,18 @@
     .second {
         font-size: 36px;
         line-height: 36px;
-        padding: 75px 0 0 0;
     }
 
     .conferencehall-logo {
         font-size: 36px;
         letter-spacing: 1.5px;
-        padding: 70px 0 0 0;
+        padding: 0;
     }
 
     .winebar-logo {
         font-size: 36px;
         letter-spacing: 1.5px;
-        padding: 70px 0 0 0;
+        padding: 0;
     }
 
     .winebar-image {
@@ -354,8 +354,6 @@
     }
     .arrow {
         display: block;
-        height: 15px;
-        padding: 80px 0 0 0;
     }
 
     /* BEST APERMENTS */
@@ -368,7 +366,7 @@
     }
 
     .apartaments-logo {
-        font-size: 100px;
+        font-size: 95px;
         line-height: 80px;
         padding-top: 70px;
         padding: 60px 15px 0 15px;
@@ -406,7 +404,7 @@
     .gallery-description {
         font-size: 13px;
         line-height: 23px;
-        width: 350px;
+        width: 365px;
         margin: 0 auto;
         opacity: 0.8;
         padding: 70px 0;
@@ -476,7 +474,7 @@
         display: flex;
         padding-bottom: 40px;
         position: absolute;
-        bottom: 200px; left: 30vw;
+        bottom: 200px; left: 28vw;
     }
 
     .caption-gallery img {
@@ -550,7 +548,7 @@
     .find {
         display: block;
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -567,6 +565,10 @@
         color: #313F38;
         background-color: #FFFCF6;
     }
+    .footer-dropdown::placeholder {
+        color: #313F38;
+        background-color: #FFFCF6;
+    }
     .footer-btn {
         background-color: #313F38;
         color: #FFFCF6;
@@ -578,7 +580,7 @@
     }
     .style-gin {
         color: #1B3B36;
-        font-family: Abhaya Libre;
+        font-family: Miracle;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -587,18 +589,18 @@
     }
     .desc-gin {
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 23px;
         opacity: 0.8;
-        width: 190px;
+        width: 195px;
         padding: 20px 0;
     }
     .reserved {
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -610,7 +612,7 @@
     .inputemail {
         height: 50px;
         width: 160px;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         background-color: #FFFCF6;
         padding: 10px;
@@ -623,7 +625,7 @@
     .social-links a {
         padding-bottom: 10px;
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;

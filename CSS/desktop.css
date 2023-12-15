@@ -17,7 +17,6 @@
     .menu-list a {
         font-size: 14px;
         line-height: 20px;
-        font-family: HelveticaNeueLTStd;
         text-transform: uppercase;
         text-decoration: none;
         color: #FFFCF6;  
@@ -64,7 +63,7 @@
 
     .description-header {
         font-size: 18px;
-        width: 350px;
+        width: 370px;
         text-align: right;
         margin-right: 0;
     }
@@ -82,7 +81,6 @@
    .dropdown {
        width: 250px;
        height: 105px;
-       font-family: HelveticaNeueLTStd;
        font-size: 16px;
        font-style: normal;
        font-weight: 700;
@@ -99,7 +97,6 @@
        height: 105px;
        color: #1B3B36;
        text-align: center;
-       font-family: Helvetica Neue LT Std;
        font-size: 16px;
        font-style: normal;
        font-weight: 700;
@@ -146,7 +143,7 @@
     .aboutus-logo {
         font-size: 100px;
         line-height: 80px;
-        text-align: right;
+        text-align: left;
         display: inline-block;
         margin-top: 100px;
         position: relative;
@@ -269,7 +266,8 @@
     .room-description {
         font-size: 13px;
         line-height: 23px;
-        width: 250px;
+        width: 265px;
+        padding-top: 0;
     }
     .container {
         justify-content: unset;
@@ -307,7 +305,7 @@
         display: block;
     }
     .room-image2-page2 {
-        background-image: url('../img/rooms&apart/page2/rooms2-4.avif');
+        background-image: url('../img/rooms&apart/page2/rooms2-2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -316,7 +314,7 @@
         display: block;
     }
     .room-image2-page3 {
-        background-image: url('../img/rooms&apart/page3/rooms3-2.avif');
+        background-image: url('../img/rooms&apart/page3/rooms3-3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -325,7 +323,7 @@
         display: block;
     }
     .room-image2-page4 {
-        background-image: url('../img/rooms&apart/page4/rooms4-1.avif');
+        background-image: url('../img/rooms&apart/page4/rooms4-3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -380,7 +378,7 @@
         line-height: 28px;
         margin-top: 70px;
         margin-left: 62px;
-        width: 350px;
+        width: 415px;
     }
     .of-container2 {
         display: flex;
@@ -435,10 +433,12 @@
     .conferencehall {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .winebar {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .conferencehall-image {
@@ -451,19 +451,18 @@
     .second {
         font-size: 45px;
         line-height: 36px;
-        padding: 75px 0 0 0;
     }
 
     .conferencehall-logo {
         font-size: 45px;
         letter-spacing: 1.5px;
-        padding: 60px 0 0 0;
+        padding: 0;
     }
 
     .winebar-logo {
         font-size: 45px;
         letter-spacing: 1.5px;
-        padding: 60px 0 0 0;
+        padding: 0;
     }
 
     .winebar-image {
@@ -475,8 +474,7 @@
     }
     .arrow {
         display: block;
-        height: 15px;
-        padding: 80px 0 0 0;
+        
     }
 
     /* BEST APARTMENTS */
@@ -601,12 +599,12 @@
     }
 
     .bankhotel {
-        color: var(--White, #FFFCF6);
+        color: #FFFCF6;
     }
 
     .caption-gallery {
         font-size: 22px;
-        width: 350px;
+        width: 380px;
         display: flex;
         padding-bottom: 40px;
         position: relative;
@@ -680,7 +678,7 @@
     .find {
         display: block;
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -698,7 +696,10 @@
             color: #313F38;
             background-color: #FFFCF6;
         }
-    
+        .footer-dropdown::placeholder {
+            color: #313F38;
+            background-color: #FFFCF6;
+        }
         .footer-btn {
             background-color: #313F38;
             color: #FFFCF6;
@@ -710,7 +711,7 @@
     }
     .style-gin {
         color: #1B3B36;
-        font-family: Abhaya Libre;
+        font-family: Miracle;
         font-size: 23px;
         font-style: normal;
         font-weight: 700;
@@ -719,7 +720,7 @@
     }
     .desc-gin {
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -730,7 +731,7 @@
     }
     .reserved {
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -742,7 +743,7 @@
     .inputemail {
         height: 50px;
         width: 160px;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 15px;
         background-color: #FFFCF6;
         padding: 10px;
@@ -755,7 +756,7 @@
     .social-links a {
         padding-bottom: 10px;
         color: #1B3B36;
-        font-family: HelveticaNeueLTStd;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
