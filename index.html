@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./CSS/desktop.css">
     <link rel="stylesheet" href="./CSS/large-screen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-    <link rel="shortcut icon" href="./img/Star-Icon.svg">
+    <link rel="icon" type="image/png" href="img/star.png">
+
   </head>
   <body>
     <header class="header" id="home">
@@ -25,12 +26,12 @@
               <i id="iconClose" class="fa-solid fa-xmark hide"></i>
             </div>
             <ul id="mainMenu" class="menu-list hide">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#aboutus">About</a></li>
-              <li><a href="#rooms-apartments">Rooms</a></li>
-              <li><a href="#restaurant">Restaurant</a></li>
-              <li><a href="#conference-hall">Conference hall</a></li>
-              <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#home">Головна</a></li>
+              <li><a href="#aboutus">Про нас</a></li>
+              <li><a href="#rooms-apartments">Номери</a></li>
+              <li><a href="#restaurant">Ресторан</a></li>
+              <li><a href="#conference-hall">Конференц-зала</a></li>
+              <li><a href="#contacts">Контакти</a></li>
             </ul>
           </div>
           <div class="number">+38 032 297 50 20</div>
@@ -47,28 +48,23 @@
           </div>
           <div class="header-bottom-bottom">
             <h2 class="textyellow">
-              rooms // restaurant // congress hall // wine bar
+              номери // ресторан // конференц-зал // винний бар
             </h2>
             <hr class="line">
             <p class="description-header">
-              The luxurious hotel in the most beautiful European city with an
-              exclusive restaurant, conference-hall, and art-bar.
+              Розкішний готель у найкрасивішому європейському місті з ексклюзивним рестораном, конференц-залом та арт-баром.
             </p>
           </div>
           <div class="header-image">
             <div class="header-wrap">
-              <select class="dropdown">
-                <option value="checkin">Check In</option>
-              </select>
-              <select class="dropdown">
-                <option value="ckeckout">Check Out</option>
-              </select>
-              <a href="#" class="btn">Book room</a>
+              <input placeholder="Дата заїзду:" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="dropdown"/>
+              <input placeholder="Дата виїзду:" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="dropdown"/>
+              <a href="#" class="btn">Забронювати</a>
             </div>
-            <a href="#" class="bookroom-icon hide1">Book room</a>
+            <a href="#" class="bookroom-icon hide1">Забронювати</a>
           </div>
           <h2 class="caption">
-            Art & Congress <br><span class="hall"> hall</span>
+            Художній & Конгрес <br><span class="hall"> зал</span>
           </h2>
           <div class="contacts">
             <a href="tel:+380322975020" class="number-a">+38 032 297 50 20</a>
@@ -77,7 +73,7 @@
               href="https://www.google.com/maps/place/BANKHOTEL/@49.8409109,24.0186265,17z/data=!3m1!4b1!4m9!3m8!1s0x473add716985cdb3:0x3ae752dea3746844!5m2!4m1!1i2!8m2!3d49.8409109!4d24.0212014!16s%2Fg%2F11h1rc6vh8?entry=ttu"
               class="address"
               target="_blank"
-              >8 Lystopadovoho Chynu,Lviv</a>
+              >Листопадового Чину 8, Львів</a>
           </div>
         </div>
       </div>
@@ -87,7 +83,7 @@
         <div class="content-wrap">
           <div class="about-wrap1">
             <div class="aboutus-logo">
-              About<br><span class="us">Us</span>
+             Про<br><span class="us">Готель</span>
             </div>
             <div class="aboutus-photo1"></div>
             <div class="aboutus-photo2"></div>
@@ -96,14 +92,9 @@
             </div>
           </div>
           <div class="fer">
-            <h3 class="hq">High quality</h3>
+            <h3 class="hq">Висока якість</h3>
             <p class="aboutus-description">
-              The five-star Bank Hotel was reopened to visitors in 2016. The
-              building was renovated and modernized to meet the expectations of
-              the most demanding guests. We offer luxurious rooms, numerous
-              facilities, and exceptional service. The hotel is located near the
-              city center, which makes it the best option for those who travel
-              for business and travel purposes.
+              У 2016 році п’ятизірковий готель Bank Hotel знову відкрився для відвідувачів. Будівля була відремонтована та модернізована, щоб задовольнити очікування найвибагливіших гостей. Ми пропонуємо розкішні номери, численні зручності та винятковий сервіс.
             </p>
           </div>
           <div class="aboutus-button">
@@ -117,98 +108,85 @@
     <section class="rooms-apartments" id="rooms-apartments">
       <div class="content-wrap">
         <div class="rooms-top">
-          <div class="rooms-amount">70 Rooms</div>
-          <h2 class="rooms-logo">Rooms & apartments</h2>
-          <div class="rooms-description">All room decoration was made with ecological 
-            certified and safe materials.</div>
+          <div class="rooms-amount">70 Номерів</div>
+          <h2 class="rooms-logo">Номери & апартаменти</h2>
+          <div class="rooms-description">Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.</div>
         </div>
         <div class="swiper" id="mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="wrap">
               <div class="room-image-page1">
-                <a href="rooms-page1.html" class="bookroom-icon">Book room</a>
+                <a href="rooms-page1.html" class="bookroom-icon">Забронювати</a>
               </div>
               <div class="room-image2-page1"></div>
               <div class="label-since black">
                 <img src="img/Star-Icon.svg" alt="Star-Icon" class="star">Since 1973
               </div>
               <div class="number-of-page">01  <span class="four">/  04</span></div>
-              <div class="name-of-room">Superior Twin</div>
+              <div class="name-of-room">Двомісний Люкс</div>
               <div class="container">
                 <a href="#">
                   <img src="img/button-rooms.png" alt="button-rooms" class="button-rooms">
                 </a>
-                <div class="room-description">The Superior twin is perfect for those who 
-                  plan to stay long. The spacious and bright room is equipped with deluxe
-                  Italian furniture and has a beautiful view to the historical part of the city. 
-                  Stylish interior design and comfortable beds will make your stay cozy and pleasant.</div>
+                <div class="room-description">Просторий номер з видом на старовинну частину міста Львова. Підходить для тих, хто планує залишитися надовго. Світла кімната обставлена розкішними італійськими меблями та має прекрасний вид на історичну частину міста. Поєднання історії і сучасності в одному номері стануть незабутніми.</div>
               </div>
             </div>
           </div>
             <div class="swiper-slide">
               <div class="wrap">
               <div class="room-image-page2">
-                <a href="rooms-page2.html" class="bookroom-icon">Book room</a>
+                <a href="rooms-page2.html" class="bookroom-icon">Забронювати</a>
               </div>
               <div class="room-image2-page2"></div>
               <div class="label-since black">
                 <img src="img/Star-Icon.svg" alt="Star-Icon" class="star">Since 1973
               </div>
               <div class="number-of-page">02  <span class="four">/  04</span></div>
-              <div class="name-of-room">Standart Twin</div>
+              <div class="name-of-room">Стандарт Люкс</div>
               <div class="container">
                 <a href="#">
                   <img src="img/button-rooms.png" alt="button-rooms" class="button-rooms">
                 </a>
-                <div class="room-description">The modern design of the STANDARD rooms 
-                harmoniously coexists with the restored original elements of the
-                1912 Austro-Hungarian bank building. Each STANDARD room has its 
-                own unique interior and is equipped with comfortable Italian furniture.</div>
+                <div class="room-description">Сучасний авторський дизайн номерів гармонічно співіснує з відреставрованими елементами будівлі 1912 року. Кожен номер має свій власний унікальний інтер’єр та зручні меблі італійського виробництва. В номері на ліжках сертифіковані ортопедичні  матраци із екологічним наповненням. </div>
               </div>
             </div>
           </div>
             <div class="swiper-slide">
               <div class="wrap">
               <div class="room-image-page3">
-                <a href="rooms-page3.html" class="bookroom-icon">Book room</a>
+                <a href="rooms-page3.html" class="bookroom-icon">Забронювати</a>
               </div>
               <div class="room-image2-page3"></div>
               <div class="label-since black">
                 <img src="img/Star-Icon.svg" alt="Star-Icon" class="star">Since 1973
               </div>
               <div class="number-of-page">03  <span class="four">/  04</span></div>
-              <div class="name-of-room">Presidential Suite</div>
+              <div class="name-of-room">Президентський</div>
               <div class="container">
                 <a href="#">
                   <img src="img/button-rooms.png" alt="button-rooms" class="button-rooms">
                 </a>
-                <div class="room-description">The PRESIDENTAL SUITE has a special charm due 
-                to the renovated elements of the 1912 Austro-Hungarian Bank building, 
-                such as the original bas-reliefs on the ceiling in the living room and 
-                the vaults cleansed from plaster in the bedroom.</div>
+                <div class="room-description">Президентський люкс – це поєднання комфорту, стилю та класики. Просторі світлі апартаменти з величезними вікнами з яких відкривається живописний краєвид на парк.Апартаменти складаються із затишної спальні, вітальні з комплектом м’якої частини меблів та двох ванних кімнат.</div>
               </div>
             </div>
           </div>
             <div class="swiper-slide">
               <div class="wrap">
               <div class="room-image-page4">
-                <a href="rooms-page4.html" class="bookroom-icon">Book room</a>
+                <a href="rooms-page4.html" class="bookroom-icon">Забронювати</a>
               </div>
               <div class="room-image2-page4"></div>
               <div class="label-since black">
                 <img src="img/Star-Icon.svg" alt="Star-Icon" class="star">Since 1973
               </div>
               <div class="number-of-page">04  <span class="four">/  04</span></div>
-              <div class="name-of-room">Premier Suite</div>
+              <div class="name-of-room">Прем'єр Люкс</div>
               <div class="container">
                 <a href="#">
                   <img src="img/button-rooms.png" alt="button-rooms" class="button-rooms">
                 </a>
-                <div class="room-description">Premier Suite is a spacious studio filled with light that breaks through huge windows. It
-                has a special charm due to a combination of the
-                restored elements of the 1920 Austro-Hungarian Bank building, 
-                such as bas-relief on the ceiling and modern design.</div>
+                <div class="room-description">Прем'єр люкс – просторий номер-студія наповнений світлом, що пробивається через величезні вікна з яких відкривається живописний краєвид на парк.Номер має особливий шарм, завдяки поєднанню оригінальних елементів будівлі 1912 року, таких як барельєфи на стелі, та сучасного дизайну.</div>
               </div>
             </div>
           </div>
@@ -223,23 +201,20 @@
         <div class="of-container">
           <div class="of-image2"></div>
           <h2 class="caption4">
-            Art & Congress <br><span class="hall"> hall</span>
+            Художній & Конгрес <br><span class="hall"> зал</span>
           </h2>
           <div class="our-facilities-logo">
-            <span>Our</span>
-            <span>faci</span>
+            <span>Наші</span>
+            <span>об</span>
             <span>
-              <img src="img/Star-Icon.svg" alt="Star-Icon" class="star-icon">lities
+              <img src="img/Star-Icon.svg" alt="Star-Icon" class="star-icon">єкти
               </span>
           </div>
         </div>
         <div class="of-container2">
           <div class="of-image1"></div>
           <p class="of-description">
-            Bank Hotel offers you a wide range of additional services and
-            facilities. Visit our restaurant to try exclusive meals, book a
-            conference hall to organize a business meeting, or relax in the
-            art-bar.
+            Банк Готель пропонує Вам широкий спектр додаткових послуг та зручностей. Завітайте до нашого ресторану, щоб спробувати ексклюзивні страви, замовити конференц-зал для організації ділової зустрічі або відпочити в арт-барі.
           </p>
         </div>
       </div>
@@ -249,7 +224,7 @@
         <div class="ice-restaurant-image"></div>
         <div class="resrtaurant-container1">
           <span class="first">01</span>
-          <h1 class="icerestaurant-logo">Ice <br>restaurant</h1>
+          <h1 class="icerestaurant-logo">Винний бар <br>RESERVE</h1>
         </div>
         <div class="resrtaurant-container2">
           <div class="button-down2">
@@ -258,16 +233,14 @@
             </a>
           </div>
           <p class="restaurant-description">
-            The hotel’s exclusive infrastructure is complemented by the unique
-            atmosphere of the Safe Restaurant. Author’s menu, extensive wine
-            card, and live music will set you for the correct mood.
+            Ексклюзивну інфраструктуру готелю доповнює унікальна атмосфера винного бару Reserve. Авторське меню, велика винна карта та жива музика створять правильний настрій.
           </p>
         </div>
         <div class="conferencehall" id="conference-hall">
           <div class="second">02</div>
           <div class="conferencehall-image"></div>
 
-          <a href="conferencehall-page.html" class="conferencehall-logo">conference hall</a>
+          <a href="conferencehall-page.html" class="conferencehall-logo">конференц-зал</a>
           <div class="arrow">
             <a href="conferencehall-page.html"><img src="img/arrow.png" alt="arrow"></a>
           </div>
@@ -276,9 +249,9 @@
         <div class="winebar">
           <div class="second">03</div>
           <div class="winebar-image"></div>
-          <a href="winebar-page.html" class="winebar-logo">Wine bar “reserve”</a>
+          <a href="restaurant-page.html" class="winebar-logo">Ресторан SAFE</a>
           <div class="arrow">
-            <a href="winebar-page.html"><img src="img/arrow.png" alt="arrow"></a>
+            <a href="restaurant-page.html"><img src="img/arrow.png" alt="arrow"></a>
           </div>
         </div>
         <hr class="line-long">
@@ -287,14 +260,13 @@
     <section class="best-apartaments" id="best-apartaments">
       <div class="bg-apartaments">
         <div class="apartaments-logo">
-          <span>Best</span>
-          <span>Apartments</span>
+          <span>Найкращі</span>
+          <span>Апартаменти</span>
         </div>
         <img src="img/yellow-line.svg" alt="yellow-line" class="yellowline">
         <img src="img/big-yellow-line.png" alt="big-yellow-line" class="bigyellowline">
         <h4 class="apartments-description">
-          All room decoration was made with ecological certified and safe
-          materials.
+          Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.
         </h4>
       </div>
     </section>
@@ -303,11 +275,9 @@
         <div class="label-gallery">
           <img src="img/label-gallery.svg" alt="label-gallery">
         </div>
-        <div class="gallery-logo">our Gallery</div>
+        <div class="gallery-logo">Наша галерея</div>
         <p class="gallery-description">
-          Explore our spacious rooms with the gorgeous view to the historical
-          part of the city. Each room has an exclusive interior design decorated
-          with modern art pieces that will make your stay unforgettable.
+          Дослідіть наші просторі номери з чудовим видом на історичну частину міста. Кожен номер має ексклюзивний дизайн інтер'єру, прикрашений сучасними витворами мистецтва, які зроблять ваше перебування незабутнім.
         </p>
         <div class="photos">
           <div class="photo1"></div>
@@ -352,7 +322,7 @@
         </div>
         <div class="caption-gallery">
           <img src="img/Polygon-gallery.svg" alt="Polygon-gallery">
-          <p>It is our pleasure to meet your most unrealistic expectations.</p>
+          <p>Нам приємно виправдати ваші найнереалістичніші очікування.</p>
         </div>
         <div class="marks">
           <h3>Bank hotel <span class="bankhotel">Bank__hotel©</span> Bank hotel Bank
@@ -366,45 +336,38 @@
         <a href="tel:+380322975020" class="number-a bottom">
           +38 032 297 50 20
           </a>
-        <span class="bottom-address">8 Lystopadovoho Chynu,Lviv</span>
+        <span class="bottom-address">Листопадового Чину 8, Львів</span>
         <div class="getintouch-logo">
-          <span>Get in <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
-          <span class="touch">Touch</span>
+          <span>Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
+          <span class="touch">Зв'язку</span>
         </div>
         <div class="gin-image"></div>
-        <a href="#" class="bookroom-icon icon-bottom">Book room</a>
+        <a href="#" class="bookroom-icon icon-bottom">Забронювати</a>
         <div class="tb-bottom">
-          <p class="find">Find a room :</p>
+          <p class="find">Забронювати номер:</p>
           <div class="header-wrap footer-wrap">
-            <select class="dropdown footer-dropdown">
-              <option value="checkin">Check In</option>
-            </select>
-            <select class="dropdown footer-dropdown">
-              <option value="checkout">Check Out</option>
-            </select>
-            <a href="#" class="btn footer-btn">Book room</a>
+            <input placeholder="Дата заїзду:" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="dropdown footer-dropdown"/>
+            <input placeholder="Дата виїзду:" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="dropdown footer-dropdown"/>
+            <a href="#" class="btn footer-btn">Забронювати</a>
           </div>
         </div>
         <hr class="line-long">
-
         <div class="gin-container">
           <div class="aboutuss">
-            <h2 class="style-gin"><span class="yellow">/</span>About us</h2>
+            <h2 class="style-gin"><span class="yellow">/</span>Про нас</h2>
             <p class="desc-gin">
-              The five-star hotel in a beautiful European city with a modern
-              restaurant, conference-hall, and art-bar.
+              П'ятизірковий готель в красивому європейському місті з сучасним рестораном, конференц-залом і арт-баром.
             </p>
           </div>
           <div class="news">
-            <h2 class="style-gin"><span class="yellow">/</span>news</h2>
+            <h2 class="style-gin"><span class="yellow">/</span>Новини</h2>
             <p class="desc-gin">
-              Sign up to our newsletter not to miss exclusive offers and
-              information about the upcoming events.
+              Підпишіться на нашу розсилку, щоб не пропустити ексклюзивні пропозиції та інформацію про майбутні події.
             </p>
             <input type="email" name="email" id="email" placeholder="EMAIL" class="inputemail">
           </div>
           <div class="social">
-            <h2 class="style-gin"><span class="yellow">/</span>Social</h2>
+            <h2 class="style-gin"><span class="yellow">/</span>Соцмережі</h2>
             <div class="social-links">
               <a href="https://www.facebook.com/" target="_blank">facebook</a>
               <a href="https://www.instagram.com/" target="_blank">instagram</a>
@@ -412,7 +375,7 @@
             </div>
           </div>
         </div>
-        <p class="reserved">©2023 All rights reserved. BankHotel</p>
+        <p class="reserved">©2023 Всі права захищено. BankHotel</p>
       </div>
     </section>
     <script src="scripts/scripts.js"></script>
