@@ -177,6 +177,9 @@
     color: #FFFCF6;
     opacity: 0.8;
 }
+.noborder {
+    border: none;
+}
 
 .btn {
     background-color: #FCD043;
