@@ -1020,7 +1020,7 @@
     transition: transform .25s ease-out,-webkit-transform .25s ease-out;
     background-color: #FFFCF6;
     color: #1B3B36;
-    font-family: Miracle;
+    font-family: Miracle, sans;
 
   }
   
@@ -1032,7 +1032,7 @@
   .modal__btn-primary {
     background-color: #1B3B36;
     color: #FFFCF6;
-    font-family: Miracle;
+    font-family: Miracle, sans;
   }
   .micromodal-slide {
     display: none;
