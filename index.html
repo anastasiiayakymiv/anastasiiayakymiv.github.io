@@ -7,10 +7,6 @@
     <script src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/tablet.css">
-    <link rel="stylesheet" href="./CSS/laptop.css">
-    <link rel="stylesheet" href="./CSS/desktop.css">
-    <link rel="stylesheet" href="./CSS/large-screen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="icon" type="image/png" href="img/star.png">
   </head>
@@ -29,7 +25,7 @@
               <li><a href="#aboutus">Про нас</a></li>
               <li><a href="#rooms-apartments">Номери</a></li>
               <li><a href="#restaurant">Ресторан</a></li>
-              <li><a href="#conference-hall">Конференц-зала</a></li>
+              <li><a href="#conference-hall">Конференц-зал</a></li>
               <li><a href="#contacts">Контакти</a></li>
             </ul>
           </div>
@@ -194,7 +190,6 @@
         </div> 
       </div>
     </section>
-
     <section class="our-facilities">
       <div class="content-wrap">
         <div class="of-container">
@@ -312,7 +307,6 @@
               <div class="swiper-slide">
                 <img src="img/het-in-touch1.jfif" alt="swiper-image">
               </div>
-              
             </div>
             <div class="swiper-button-next"></div>
              <div class="swiper-button-prev"></div>
@@ -377,7 +371,6 @@
         <p class="reserved">©2023 Всі права захищено. BankHotel</p>
       </div>
     </section>
-
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
         <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
@@ -393,7 +386,6 @@
               <label for="name-input">Ваше Ім'я : </label>
               <input type="text" name="nameinput" id="name-input" placeholder="Ім'я : ">
             </div>
-
             <div class="wraptel-input">
               <label for="tel-input">Ваш Номер Телефону : </label>
               <input type="tel" name="telinput" id="tel-input" placeholder="Номер телефону : ">
@@ -407,33 +399,11 @@
         </div>
       </div>
     </div>
-
-
     <script src="scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-   <script src="scripts/swiper.js"></script>
+    <script src="scripts/swiper.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-    <script>
-      MicroModal.init({
-        onShow: modal => console.info(`${modal.id} is shown`), 
-        onClose: modal => console.info(`${modal.id} is hidden`), 
-        openTrigger: 'data-custom-open',
-        closeTrigger: 'data-custom-close',
-        disableScroll: true, 
-        disableFocus: false, 
-        awaitCloseAnimation: false, 
-        debugMode: true 
-      });
-
-      var button = document.querySelector('.btn');
-      button.addEventListener('click', function(){
-        MicroModal.show('modal-1');    
-      });
-      var button2 = document.querySelector('.bookroom-icon');
-      button2.addEventListener('click', function(){
-        MicroModal.show('modal-1');    
-      });
-    </script>
-  </body>
+    <script src="scripts/micromodal.js"></script>
+  </body> 
 </html>
