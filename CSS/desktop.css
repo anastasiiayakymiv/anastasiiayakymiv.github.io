@@ -787,6 +787,34 @@
         border-radius: 5px;
         text-transform: uppercase;
     }
+    .wraptel-input {
+        margin: 25px 0;
+      }
+      .wrapname-input label,
+      .wraptel-input label {
+        font-family: Miracle;
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .wrapname-input input,
+      .wraptel-input input {
+        font-size: 18px;
+        padding: 10px;
+        height: 40px;
+      }
+      .modal__title {
+          font-size: 28px;
+          padding-right: 20px;
+      }
+      .modal__container {
+          max-width: 550px;
+      }
+      .modal__content {
+          margin-top: 1rem;
+      }
+      .modal__btn {
+        font-size: 20px;
+      }
 }
 
 
