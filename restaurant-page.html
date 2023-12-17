@@ -8,6 +8,7 @@
     src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/star.png">
 </head>
 <body>
@@ -41,21 +42,21 @@
             <img src="img/label-gallery.svg" alt="label-gallery" class="label-pos-rest">
             <p class="description-winebar">"BankHotel" з гордістю вітає вас у ресторані «Safe», де ви захочете обідати щодня. Ресторан пропонує унікальне меню, розроблене командою професіоналів на чолі з шеф-кухарем Стефано Антоніоллі, винну карту з понад 250 позицій, відмінний сервіс і незабутню атмосферу.</p>
             <div class="wrap-img-restaurant">
-            <div class="sr-box-image1"></div>
-            <div class="sr-box-image2"></div>
+            <div class="sr-box-image1" data-aos="fade-right"></div>
+            <div class="sr-box-image2"  data-aos="fade-left"></div>
           </div>
-            <h3 class="sr-bigtext">До ваших послуг</h3>
-            <p class="sr-description">Команда ресторану Safe прагне перевершити всі очікування наших гостей. Наш шеф-кухар наполегливо працював над розробкою унікального меню, в якому представлені найкращі страви європейської кухні, які задовольнять смаки найвимогливіших клієнтів. Привітні та уважні офіціанти подбають про те, щоб ви провели час у нашому ресторані з користю.</p>
+            <h3 class="sr-bigtext" data-aos="fade-left">До ваших послуг</h3>
+            <p class="sr-description" data-aos="fade-right">Команда ресторану Safe прагне перевершити всі очікування наших гостей. Наш шеф-кухар наполегливо працював над розробкою унікального меню, в якому представлені найкращі страви європейської кухні, які задовольнять смаки найвимогливіших клієнтів. Привітні та уважні офіціанти подбають про те, щоб ви провели час у нашому ресторані з користю.</p>
             <hr style="opacity: 0.4;">
-            <h3 class="sr-bigtext text-change1">Одного разу спробувавши нашу кухню та сервіс, ви ніколи не захочете відвідати інший ресторан.</h3>
-            <div class="sr-box-image3"></div>
+            <h3 class="sr-bigtext text-change1" data-aos="fade-right">Одного разу спробувавши нашу кухню та сервіс, ви ніколи не захочете відвідати інший ресторан.</h3>
+            <div class="sr-box-image3" data-aos="fade-left"></div>
             
             <img src="img/white-line2.svg" alt="white-line-desktop" class="whiteline-style">
-            <h3 class="sr-bigtext text-change2">Проведіть свій час з нами</h3>
-            <p class="sr-description text-change2">Своєю авторською кухнею Стефано Антоніоллі називає суму найкращих продуктів Середземномор’я, помножених на досвід. Він вкладає у це поняття мікс власних знань, гастрокультурних традицій, подорожей, спілкування з колегами, дегустацій у найкращих ресторанах по всьому світу. Однак як справжній італієць, він завжди віддає данину традиціям.</p>
+            <h3 class="sr-bigtext text-change2" data-aos="fade-left">Проведіть свій час з нами</h3>
+            <p class="sr-description text-change2"  data-aos="fade-right">Своєю авторською кухнею Стефано Антоніоллі називає суму найкращих продуктів Середземномор’я, помножених на досвід. Він вкладає у це поняття мікс власних знань, гастрокультурних традицій, подорожей, спілкування з колегами, дегустацій у найкращих ресторанах по всьому світу. Однак як справжній італієць, він завжди віддає данину традиціям.</p>
             <div class="wrap12">
-                <div class="sr-box-image4"></div>
-                <h3 class="apartments-description text-change4">Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.</h3>
+                <div class="sr-box-image4" data-aos="fade-right"></div>
+                <h3 class="apartments-description text-change4"  data-aos="fade-left">Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.</h3>
             </div>
             
         </div>
@@ -64,13 +65,13 @@
   <section class="get-in-touch" id="winebar-contacts">
     <img src="img/white-line2.svg" alt="big-yellow-line" class="bigyellowline-bottom">
     <div class="content-wrap">
-      <a href="tel:+380322975020" class="number-a bottom color-change">
+      <a href="tel:+380322975020" class="number-a bottom color-change" data-aos="fade-right">
         +38 032 297 50 20
         </a>
-      <span class="bottom-address color-change">Листопадового Чину 8, Львів</span>
+      <span class="bottom-address color-change" data-aos="fade-left">Листопадового Чину 8, Львів</span>
       <div class="getintouch-logo color-change">
-        <span>Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
-        <span class="touch">Зв'язку</span>
+        <span data-aos="fade-right">Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
+        <span data-aos="fade-left" class="touch">Зв'язку</span>
       </div>
       <div class="gin-image"></div>
       <a href="#" class="bookroom-icon icon-bottom">Забронювати</a>
@@ -110,6 +111,10 @@
       <p class="reserved color-change">©2023 Всі права захищено. BankHotel</p>
     </div>
   </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/navbar.js"></script>
 </body>

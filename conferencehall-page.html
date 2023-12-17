@@ -8,6 +8,7 @@
     src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/star.png">
 </head>
 <body>
@@ -33,7 +34,6 @@
           </nav>
         </div>
     </header>
-
     <section class="conference-hall-top">
       <div class="content-wrap">
         <div class="hall-wrap">
@@ -41,7 +41,7 @@
         <div class="rooms-description">
           Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.
         </div>
-        <div class="bigtext-hall">Ми дбаємо про ваш комфорт</div>
+        <div class="bigtext-hall" data-aos="fade-right">Ми дбаємо про ваш комфорт</div>
       </div>
       </div>
     </section>
@@ -55,17 +55,16 @@
       </div>
       </div>
     </section>
-
     <section class="get-in-touch" id="contacts">
       <img src="img/big-yellow-line.png" alt="big-yellow-line" class="bigyellowline-bottom">
       <div class="content-wrap">
-        <a href="tel:+380322975020" class="number-a bottom">
+        <a href="tel:+380322975020" class="number-a bottom" data-aos="fade-right">
           +38 032 297 50 20
           </a>
-        <span class="bottom-address">Листопадового Чину 8, Львів</span>
+        <span class="bottom-address" data-aos="fade-left">Листопадового Чину 8, Львів</span>
         <div class="getintouch-logo">
-          <span>Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
-          <span class="touch">Зв'язку</span>
+          <span data-aos="fade-right">Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
+          <span data-aos="fade-left" class="touch">Зв'язку</span>
         </div>
         <div class="gin-image"></div>
         <a href="#" class="bookroom-icon icon-bottom">Забронювати</a>
@@ -104,8 +103,13 @@
         <p class="reserved">©2023 Всі права захищено. BankHotel</p>
       </div>
     </section>
-        <script src="scripts/scripts.js"></script>
-        <script src="scripts/navbar.js"></script>
-        <script src="scripts/jsonexport.js"></script>
+    <script src="scripts/jsonexport.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <script src="scripts/scripts.js"></script>
+      <script src="scripts/navbar.js"></script>
+      
 </body>
 </html>

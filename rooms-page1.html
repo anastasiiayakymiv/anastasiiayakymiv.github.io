@@ -8,6 +8,7 @@
     src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/star.png">
 </head>
 <body>
@@ -43,16 +44,16 @@
     </header>
     <section class="superiortwin-description">
         <div class="content-wrap">
-        <h3 class="sttext">
+        <h3 class="sttext" data-aos="fade-right">
           Усі апартаменти мають унікальний дизайн, тому що ми хочемо, щоб кожен наш гість почувався особливим.
         </h3>
         <div class="label-since white">
             <img src="img/Star-Icon.svg" alt="Star-Icon" class="star">Since 1973
         </div>
-        <div class="sp-description">
+        <div class="sp-description" data-aos="fade-left">
           Двомісний люкс ідеально відповідатиме потребам тих, хто планує залишитися надовго. Світлий і просторий номер обставлений м'якими італійськими меблями. Сучасний дизайн інтер'єру та зручні ліжка зроблять Ваш відпочинок затишним та приємним.
         </div>
-        <div class="premier-standart">
+        <div class="premier-standart" data-aos="fade-right">
           високий стандарт якості
         </div>
         </div>
@@ -62,8 +63,8 @@
     <section class="superiortwin">
         <div class="content-wrap">
          <div class="container11">   
-            <h2 class="name-of-room page1name">Двомісний люкс</h2>
-            <div class="room-description page1desc position">
+            <h2 class="name-of-room page1name" data-aos="fade-right">Двомісний люкс</h2>
+            <div class="room-description page1desc position" data-aos="fade-left">
               Усі номери «BankHotel» мають особливий шарм, який досягається завдяки поєднанню сучасного функціонального дизайну та оригінального планування 20 століття.
             </div>
             <div class="img-bathroom bath-page1"></div>
@@ -71,7 +72,7 @@
             <div class="label-rooms">
                 <img src="img/rooms&apart/label.svg" alt="label">
             </div>
-            <div class="room-description page1desc">
+            <div class="room-description page1desc" data-aos="fade-right">
               Покращений номер складається з двох функціональних зон: вітальні з кращими італійськими меблями та ізольованої затишної спальні з великим ліжком. Тут ви знайдете місце як для роботи, так і для комфортного відпочинку. Готель пропонує найвищий комфорт і чудове цілодобове обслуговування номерів.
             </div>
             <a href="#" class="bookroom-btn">/Забронювати</a>
@@ -81,13 +82,13 @@
     <section class="get-in-touch" id="contacts">
       <img src="img/big-yellow-line.png" alt="big-yellow-line" class="bigyellowline-bottom">
       <div class="content-wrap">
-        <a href="tel:+380322975020" class="number-a bottom">
+        <a href="tel:+380322975020" class="number-a bottom" data-aos="fade-right">
           +38 032 297 50 20
           </a>
-        <span class="bottom-address">Листопадового Чину 8, Львів</span>
+        <span class="bottom-address" data-aos="fade-left">Листопадового Чину 8, Львів</span>
         <div class="getintouch-logo">
-          <span>Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
-          <span class="touch">Зв'язку</span>
+          <span data-aos="fade-right">Будь на <img src="img/Star-Footer.svg" alt="Star-Icon" class="star-bottom"></span>
+          <span data-aos="fade-left" class="touch">Зв'язку</span>
         </div>
         <div class="gin-image"></div>
         <a href="#" class="bookroom-icon icon-bottom">Забронювати</a>
@@ -126,6 +127,10 @@
         <p class="reserved">©2023 Всі права захищено. BankHotel</p>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/navbar.js"></script>
 </body>
