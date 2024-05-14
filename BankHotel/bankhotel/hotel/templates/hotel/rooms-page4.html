@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankHotel | Прем'єр Люкс</title>
+    <script src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'hotel/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'hotel/style.css' %}">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="{% static 'img/star.png' %}">
+</head>
+<body>
+    <header class="header" id="home">
+          <nav class="header-top">
+            <div class="logo">BankHotel</div>
+            <div class="main-menu">
+              <div id="menuIcons" class="main-menu_icons">
+                <i id="iconOpen" class="fa-solid fa-equals"></i>
+                <i id="iconClose" class="fa-solid fa-xmark hide"></i>
+              </div>
+              <ul id="mainMenu" class="menu-list hide">
+                <li><a href={% url "index" %}>Головна</a></li>
+                <li><a href="#aboutus">Про нас</a></li>
+                <li><a href={% url "rooms" %}>Номери</a></li>
+                <li><a href={% url "restaurant" %}>Ресторан</a></li>
+                <li><a href={% url "conferencehall" %}>Конференц-зал</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="number">+38 032 297 50 20</div>
+          </nav>
+          <div class="header-bottom-rooms">
+            <div class="bg-top-rooms bg-page4">
+                <div class="logo-superior">Прем'єр Люкс</div>
+                <img src="{% static 'img/yellow-line.svg' %}" alt="yellow-line" class="yellowline pad none">
+                <div class="superior-description">
+                  Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.
+                </div>
+                <form action="{% url 'booking' %}" method="post">
+                  {% csrf_token %}
+                  <input type="submit" class="bookroom-icon stp" value="Забронювати">
+                </form>
+            </div>
+          </div> 
+    </header>
+    <section class="superiortwin-description">
+        <div class="content-wrap">
+        <h3 class="sttext" data-aos="fade-right">
+          Усі апартаменти мають унікальний дизайн, тому що ми хочемо, щоб кожен наш гість почувався особливим.
+        </h3>
+        <div class="label-since white">
+            <img src="{% static 'img/Star-Icon.svg' %}" alt="Star-Icon" class="star">Since 1973
+        </div>
+        <div class="sp-description" data-aos="fade-left">
+            Прем'єр Люкс - це вищий ступінь розкіші та витонченості, де кожна деталь сприяє створенню неповторної атмосфери комфорту та задоволення. У цьому елітному номері, призначеному для вишуканих подорожуючих, враховані найвищі стандарти і вимоги до зручності та стилю.
+        </div>
+        <div class="premier-standart" data-aos="fade-right">
+          Високий стандарт якості
+        </div>
+        </div>
+        <img src="{% static 'img/white-line.svg' %}" alt="white-line" class="yellowline pad pos">
+        <div class="pre-stand-img psi-page4"></div>
+    </section>
+    <section class="superiortwin">
+        <div class="content-wrap">
+         <div class="container11">   
+            <h2 class="name-of-room page1name" data-aos="fade-right">Прем'єр Люкс</h2>
+            <div class="room-description page1desc position" data-aos="fade-left">
+              Усі номери «BankHotel» мають особливий шарм, який досягається завдяки поєднанню сучасного функціонального дизайну та оригінального планування 20 століття.
+            </div>
+            <div class="img-bathroom bath-page4"></div>
+            <div class="img-bathroom2 bath2-page4"></div>
+            <div class="label-rooms">
+                <img src="{% static 'img/rooms&apart/label.svg' %}" alt="label">
+            </div>
+            <div class="room-description page1desc" data-aos="fade-right">
+              Прем'єр Люкс пропонує не лише зручність ліжка, а й окрему вітальню, де ви зможете насолоджуватися найкращими італійськими меблями. Кожна деталь цього номера створена для вашого максимального комфорту і задоволення. Простір і світло доповнюють елегантний дизайн і створюють атмосферу справжнього відпочинку.
+            </div>
+            <form action="{% url 'booking' %}" method="post">
+              {% csrf_token %}
+              <input type="submit" class="bookroom-btn" value="/Забронювати">
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="get-in-touch" id="contacts">
+      <img src="{% static 'img/big-yellow-line.png' %}" alt="big-yellow-line" class="bigyellowline-bottom">
+      <div class="content-wrap">
+        <a href="tel:+380322975020" class="number-a bottom" data-aos="fade-right">
+          +38 032 297 50 20
+          </a>
+        <span data-aos="fade-left" class="bottom-address">Листопадового Чину 8, Львів</span>
+        <div class="getintouch-logo">
+          <span  data-aos="fade-right">Будь на <img src="{% static 'img/Star-Footer.svg' %}" alt="Star-Icon" class="star-bottom"></span>
+          <span  data-aos="fade-left" class="touch">Зв'язку</span>
+        </div>
+        <div class="gin-image"></div>
+        <form action="{% url 'booking' %}" method="post">
+          {% csrf_token %}
+          <input type="submit" value="Забронювати" class="bookroom-icon icon-bottom">
+        </form>
+        <div class="tb-bottom">
+          <p class="find">Будемо вдячні за вашу думку, це важливо для нас:</p>
+          <button class="accordion">Залиште свій відгук тут :)</button>
+          <div class="panel">
+            <form action="{% url 'index' %}" method="post" class="feedback-form">
+              {% csrf_token %}
+              <label for="nameinput">Ваше ім'я:</label>
+              <input type="text" name="nameinput" id="nameinput" placeholder="Ім'я. . .">
+              <br>
+              <label for="phoneinput">Ваш номер телефону:</label>
+              <input type="tel" name="phoneinput" id="phoneinput" placeholder="Номер телефону. . .">
+              <br>
+              <label for="feedbackinput">Ваш відгук:</label>
+              <textarea name="feedbackinput" id="feedbackinput" placeholder="Відгук. . ."></textarea>
+              <br>
+              <input type="submit" class="feedbacksubmit" value="Надіслати">
+            </form>
+          </div>
+        </div>
+        <hr class="line-long">
+        <div class="gin-container">
+          <div class="aboutuss">
+            <h2 class="style-gin"><span class="yellow">/</span>Про нас</h2>
+            <p class="desc-gin">
+              П'ятизірковий готель в красивому європейському місті з сучасним рестораном, конференц-залом і арт-баром.
+            </p>
+          </div>
+          <div class="news">
+            <h2 class="style-gin"><span class="yellow">/</span>Новини</h2>
+            <p class="desc-gin">
+              Підпишіться на нашу розсилку, щоб не пропустити ексклюзивні пропозиції та інформацію про майбутні події.
+            </p>
+            <form action="{% url 'index' %}" method="post">
+              {% csrf_token %}
+              <input type="email" name="email" id="email" placeholder="EMAIL" class="inputemail">
+              <input type="submit" class="emailsubmit" value="OK">
+            </form>
+          </div>
+          <div class="social">
+            <h2 class="style-gin"><span class="yellow">/</span>Соцмережі</h2>
+            <div class="social-links">
+              <a href="https://www.facebook.com/" target="_blank">facebook</a>
+              <a href="https://www.instagram.com/" target="_blank">instagram</a>
+              <a href="https://twitter.com/" target="_blank">twitter</a>
+            </div>
+          </div>
+        </div>
+        <p class="reserved">©2023 Всі права захищено. BankHotel</p>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="{% static 'scripts/accordion.js' %}"></script>
+    <script src="{% static 'scripts/scripts.js' %}"></script>
+    <script src="{% static 'scripts/navbar.js' %}"></script>
+</body>
+</html>

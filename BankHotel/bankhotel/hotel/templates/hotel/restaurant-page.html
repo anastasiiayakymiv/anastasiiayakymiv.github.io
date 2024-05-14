@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankHotel | Ресторан Safe</title>
+    <script
+    src="https://kit.fontawesome.com/69061d5a94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'hotel/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'hotel/style.css' %}">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="{% static 'img/star.png' %}">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="content-wrap">
+          <nav class="header-top">
+            <div class="logo">BankHotel</div>
+            <div class="main-menu">
+              <div id="menuIcons" class="main-menu_icons">
+                <i id="iconOpen" class="fa-solid fa-equals"></i>
+                <i id="iconClose" class="fa-solid fa-xmark hide"></i>
+              </div>
+              <ul id="mainMenu" class="menu-list hide">
+                <li><a href={% url "index" %}>Головна</a></li>
+                <li><a href="index.html#aboutus">Про нас</a></li>
+                <li><a href={% url "rooms" %}>Номери</a></li>
+                <li><a href={% url "restaurant" %}>Ресторан</a></li>
+                <li><a href={% url "conferencehall" %}>Конференц-зал</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="number">+38 032 297 50 20</div>
+          </nav>
+        </div>
+    </header>
+  <section class="safe-restaurant">
+    <div class="bg-restaurant">
+        <div class="content-wrap">
+            <h2 class="maintext-winebar">Ресторан "Safe"</h2>
+            <span>Один з найкращих</span>
+            <img src="{% static 'img/label-gallery.svg' %}" alt="label-gallery" class="label-pos-rest">
+            <p class="description-winebar">"BankHotel" з гордістю вітає вас у ресторані «Safe», де ви захочете обідати щодня. Ресторан пропонує унікальне меню, розроблене командою професіоналів на чолі з шеф-кухарем Стефано Антоніоллі, винну карту з понад 250 позицій, відмінний сервіс і незабутню атмосферу.</p>
+            <div class="wrap-img-restaurant">
+            <div class="sr-box-image1" data-aos="fade-right"></div>
+            <div class="sr-box-image2"  data-aos="fade-left"></div>
+          </div>
+            <h3 class="sr-bigtext" data-aos="fade-left">До ваших послуг</h3>
+            <p class="sr-description" data-aos="fade-right">Команда ресторану Safe прагне перевершити всі очікування наших гостей. Наш шеф-кухар наполегливо працював над розробкою унікального меню, в якому представлені найкращі страви європейської кухні, які задовольнять смаки найвимогливіших клієнтів. Привітні та уважні офіціанти подбають про те, щоб ви провели час у нашому ресторані з користю.</p>
+            <hr style="opacity: 0.4;">
+            <h3 class="sr-bigtext text-change1" data-aos="fade-right">Одного разу спробувавши нашу кухню та сервіс, ви ніколи не захочете відвідати інший ресторан.</h3>
+            <div class="sr-box-image3" data-aos="fade-left"></div>
+            
+            <img src="{% static 'img/white-line2.svg' %}" alt="white-line-desktop" class="whiteline-style">
+            <h3 class="sr-bigtext text-change2" data-aos="fade-left">Проведіть свій час з нами</h3>
+            <p class="sr-description text-change2"  data-aos="fade-right">Своєю авторською кухнею Стефано Антоніоллі називає суму найкращих продуктів Середземномор’я, помножених на досвід. Він вкладає у це поняття мікс власних знань, гастрокультурних традицій, подорожей, спілкування з колегами, дегустацій у найкращих ресторанах по всьому світу. Однак як справжній італієць, він завжди віддає данину традиціям.</p>
+            <div class="wrap12">
+                <div class="sr-box-image4" data-aos="fade-right"></div>
+                <h3 class="apartments-description text-change4"  data-aos="fade-left">Всі декорації номерів виконані екологічно сертифікованими та безпечними матеріалами.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reservation" id="reservation">
+  <div class="container-reservation bg-color-ch">
+    <h2 class="conferencehall-title res-title-ch">Резервація</h2>
+    <div class="wrap-res3">
+    <div class="wrap-res1">
+    <div class="reservation-img"></div>
+  </div>
+  <div class="wrap-res2">
+    <div class="description-reservation res-title-ch">
+      Для резервації заповніть, будь ласка, форму або зателефонуйте за номером: +38(032) 297 50 20. 
+      Після отримання вашого запиту, ми надішлемо вам підтвердження бронювання з усіма відповідними деталями.
+    </div>
+    <form action="{% url 'index' %}" method="post" class="reservation-form form-color">
+      {% csrf_token %}
+      <div class="reservation-wrap">
+        <input type="text" name="rest-reserv-name" id="rest-reserv-name" required placeholder="Ваше ім'я">
+        <input type="tel" name="rest-reserv-phone" id="rest-reserv-phone" required placeholder="Номер телефону">
+      </div>
+      <div class="reservation-wrap">
+      <select name="rest-reserve-time" id="rest-reserve-time" required>
+        <option value="9:00">9:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+      </select>
+      <input type="date" name="rest-reserv-date" id="rest-reserv-date" required placeholder="Оберіть дату">
+    </div>
+    <div class="reservation-wrap">
+      <input type="number" name="rest-reserv-guest" id="rest-reserv-guest" required placeholder="Кількість гостей">
+      <input type="text" name="rest-reserv-additionally" id="rest-reserv-additionally" placeholder="Додаткові побажання">
+    </div>
+      <input type="submit" value="Забронювати">
+    </form>
+  </div>
+  </div>
+</div>
+</section>
+  <section class="get-in-touch" id="winebar-contacts">
+    <img src="{% static 'img/white-line2.svg' %}" alt="big-yellow-line" class="bigyellowline-bottom">
+    <div class="content-wrap">
+      <a href="tel:+380322975020" class="number-a bottom color-change" data-aos="fade-right">
+        +38 032 297 50 20
+        </a>
+      <span class="bottom-address color-change" data-aos="fade-left">Листопадового Чину 8, Львів</span>
+      <div class="getintouch-logo color-change">
+        <span data-aos="fade-right">Будь на <img src="{% static 'img/Star-Footer.svg' %}" alt="Star-Icon" class="star-bottom"></span>
+        <span data-aos="fade-left" class="touch">Зв'язку</span>
+      </div>
+      <div class="gin-image"></div>
+      <form action="{% url 'booking' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Забронювати" class="bookroom-icon icon-bottom">
+      </form>
+      <div class="tb-bottom">
+        <p class="find color-change">Будемо вдячні за вашу думку, це важливо для нас:</p>
+        <button class="accordion panelcolorchange">Залиште свій відгук тут :)</button>
+        <div class="panel panelcolorchange">
+          <form action="{% url 'index' %}" method="post" class="feedback-form">
+            {% csrf_token %}
+            <label for="nameinput">Ваше ім'я:</label>
+            <input type="text" name="nameinput" id="nameinput" placeholder="Ім'я. . .">
+            <br>
+            <label for="phoneinput">Ваш номер телефону:</label>
+            <input type="tel" name="phoneinput" id="phoneinput" placeholder="Номер телефону. . .">
+            <br>
+            <label for="feedbackinput">Ваш відгук:</label>
+            <textarea name="feedbackinput" id="feedbackinput" placeholder="Відгук. . ."></textarea>
+            <br>
+            <input type="submit" class="feedbacksubmit" value="Надіслати">
+          </form>
+        </div>
+      </div>
+      <hr style="opacity: 0.2;">
+      <div class="gin-container">
+        <div class="aboutuss">
+          <h2 class="style-gin color-change"><span class="yellow">/</span>Про нас</h2>
+          <p class="desc-gin color-change">
+            П'ятизірковий готель в красивому європейському місті з сучасним рестораном, конференц-залом і арт-баром.
+          </p>
+        </div>
+        <div class="news">
+          <h2 class="style-gin color-change"><span class="yellow">/</span>Новини</h2>
+          <p class="desc-gin color-change">
+            Підпишіться на нашу розсилку, щоб не пропустити ексклюзивні пропозиції та інформацію про майбутні події.
+          </p>
+          <form action="{% url 'index' %}" method="post">
+            {% csrf_token %}
+            <input type="email" name="email" id="email" placeholder="EMAIL" class="inputemail inputcolorchange">
+            <input type="submit" class="emailsubmit inputcolorchange" value="OK">
+          </form>
+        </div>
+        <div class="social">
+          <h2 class="style-gin color-change"><span class="yellow">/</span>Соцмережі</h2>
+          <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank">facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">instagram</a>
+            <a href="https://twitter.com/" target="_blank">twitter</a>
+          </div>
+        </div>
+      </div>
+      <p class="reserved color-change">©2023 Всі права захищено. BankHotel</p>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="{% static 'scripts/accordion.js' %}"></script>
+    <script src="{% static 'scripts/scripts.js' %}"></script>
+    <script src="{% static 'scripts/navbar.js' %}"></script>
+</body>
+</html>
