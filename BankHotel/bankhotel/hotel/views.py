@@ -2,6 +2,12 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
+    if request.method == "POST":
+        name = request.POST.get("customer-firstname", "")
+        last_name = request.POST.get("customer-lastname", "")
+        #зробили перевірку(Select зайнятих номерів, якщо є вільний номер - повертаємо повідомлення
+        #бронювання успішне", якщо нема - "Нажаль всі номери обраного класу зайняті")
+        #якщо успіх - записуємо в БД,якщо ні - повертаємо користувача на сторінку бронювання
     return render(request, "hotel/index.html")
 
 def restaurant(request):
