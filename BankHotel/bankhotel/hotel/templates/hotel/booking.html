@@ -23,7 +23,7 @@
                 <i id="iconClose" class="fa-solid fa-xmark hide"></i>
             </div>
             <ul id="mainMenu" class="menu-list hide">
-                <li><a href="index.html#home">Головна</a></li>
+                <li><a href={% url "index" %}>Головна</a></li>
                 <li><a href="index.html#aboutus">Про нас</a></li>
                 <li><a href={% url "rooms" %}>Номери</a></li>
                 <li><a href={% url "restaurant" %}>Ресторан</a></li>
@@ -38,7 +38,7 @@
 <section class="booking">
     <div class="content-wrap">
         <h2 class="booking-title">Бронювання номера</h2>
-        <form action="{% url 'index' %}" method="post" class="booking-form">
+        <form action="{% url 'booking' %}" method="post" class="booking-form">
         {% csrf_token %}
         <div class="booking-wrap">
             <label for="customer-firstname">Ім'я :</label>
@@ -74,13 +74,13 @@
             <label for="customer-room-type">Оберіть тип номера :</label>
         </div>
         <div class="booking-radio-wrap">
-            <input type="radio" name="superiotwin-room" id="superiotwin-room">
+            <input type="radio" name="room-type" id="superiotwin-room" value="Двомісний люкс">
             <label for="superiotwin-room">Двомісний люкс</label>
-            <input type="radio" name="standart-room" id="standart-room">
+            <input type="radio" name="room-type" id="standart-room" value="Стандарт люкс">
             <label for="standart-room">Стандарт люкс</label>
-            <input type="radio" name="presidential-room" id="presidential-room">
+            <input type="radio" name="room-type" id="presidential-room" value="Президенський люкс">
             <label for="presidential-room">Президенський люкс</label>
-            <input type="radio" name="premier-room" id="premier-room">
+            <input type="radio" name="room-type" id="premier-room" value="Прем'єр люкс">
             <label for="premier-room">Прем'єр люкс</label>
         </div>
         <label for="customer-comment" class="customer-comment">Додаткові побажання або питання :</label>
